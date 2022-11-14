@@ -15,29 +15,36 @@ Add changes and push (Python example)
 > cd \<cloned repo directory\>
   
 > python -m venv env
+  
 > .\env\scripts\activate
+  
 > pip install <your desired libraries>
+  
 > pip freeze > requirements.txt
 
 Create .gitignore file
 > type nul > .gitignore
+  
 > (echo env/) > .gitignore
 
 Stage newly created/deleted/edited files
 > git add .
+  
 Commit
 > git commit -m "first commit"'
 
 This is part is executed exactly now, since git will not create a master branch until you commit something)
 
 Create a new branch
-> git branch <branch>
+> git branch \<branch\>
+  
 Switch to the new branch
-> git checkout <branch>
+> git checkout \<branch\>
 
 push contents of your branch to origin (github repo)
-> git push -u origin <branch>
+> git push -u origin \<branch\>
 
 Skifte til eksiterende branch med indhold og updatere filerne lokalt til branchens indhold
-> Git checkout <branch>
-> Git reset --hard origin/<branch>
+> Git checkout \<branch\>
+  
+> Git reset --hard origin/\<branch\>
