@@ -7,12 +7,12 @@ Now go into GitHub web interface and paste the content of the "id_ed25519.pub" f
 
 # Clone blank repo
 Clone the repo using ssh (.git address)
-> git clone git@github.com:AttilaVural:<repo name>.git
+> git clone git@github.com:AttilaVural:\<repo name>.git
   
 you can also clone using the https address of the repo, but do not do this - it forces you to login each time you want to push
 
 Add changes and push (Python example)
-> cd \<cloned repo directory\>
+> cd \<cloned repo directory>
   
 > python -m venv env
   
@@ -36,21 +36,21 @@ Commit
 This is part is executed exactly now, since git will not create a master branch until you commit something)
 
 Create a new branch
-> git branch \<branch\>
+> git branch \<branch>
   
 Switch to the new branch
-> git checkout \<branch\>
+> git checkout \<branch>
 
 push contents of your branch to origin (github repo)
-> git push -u origin \<branch\>
+> git push -u origin \<branch>
 
 Skifte til eksiterende branch med indhold og updatere filerne lokalt til branchens indhold
-> Git checkout \<branch\>
+> Git checkout \<branch>
   
-> Git reset --hard origin/\<branch\>
+> Git reset --hard origin/\<branch>
   
-  
-#Clone repo with files
+# Clone repo with files
+
 Clone the repo using ssh (.git address) (you can also clone using the https address of the repo, but do not do this - it forces you to login each time you want to push):
 > git clone git@github.com:AttilaVural:\<repo name>.git
 
@@ -67,7 +67,7 @@ Creating and switching branch
 Create \<branch>
 > git branch \<branch>
 
-Switch to <branch>
+Switch to \<branch>
 > git checkout \<branch>
 
 Skifte til eksiterende branch med indhold og updatere filerne lokalt til branchens indhold
