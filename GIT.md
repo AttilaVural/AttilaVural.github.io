@@ -48,3 +48,38 @@ Skifte til eksiterende branch med indhold og updatere filerne lokalt til branche
 > Git checkout \<branch\>
   
 > Git reset --hard origin/\<branch\>
+  
+  
+#Clone repo with files
+Clone the repo using ssh (.git address) (you can also clone using the https address of the repo, but do not do this - it forces you to login each time you want to push):
+> git clone git@github.com:AttilaVural:\<repo name>.git
+
+> cd \<cloned repo directory>
+
+Run the code (Python example)
+> python -m venv env
+  
+> .\env\scripts\activate
+  
+> pip install -r requirements.txt
+
+Creating and switching branch
+Create \<branch>
+> git branch \<branch>
+
+Switch to <branch>
+> git checkout \<branch>
+
+Skifte til eksiterende branch med indhold og updatere filerne lokalt til branchens indhold
+> Git reset --hard origin/\<branch>
+
+Push files to repo after changing stuff
+Stage newly created/deleted/edited files
+> git add .
+  
+Commit
+> git commit -m "first commit"
+  
+Push contents of <branch> to origin (github)
+> git push -u origin \<branch>
+
