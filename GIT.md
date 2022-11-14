@@ -8,10 +8,12 @@ Now go into GitHub web interface and paste the content of the "id_ed25519.pub" f
 # Clone blank repo
 Clone the repo using ssh (.git address)
 > git clone git@github.com:AttilaVural:<repo name>.git
+  
 you can also clone using the https address of the repo, but do not do this - it forces you to login each time you want to push
 
 Add changes and push (Python example)
-> cd <cloned repo directory>
+> cd \<cloned repo directory\>
+  
 > python -m venv env
 > .\env\scripts\activate
 > pip install <your desired libraries>
