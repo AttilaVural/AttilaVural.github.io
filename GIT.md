@@ -28,14 +28,14 @@ Commit
 
 This is part is executed exactly now, since git will not create a master branch until you commit something)
 
-Create <branch>
+Create a new branch
 > git branch <branch>
-Switch to <branch>
+Switch to the new branch
 > git checkout <branch>
 
-push contents of <branch> to origin (github)
+push contents of your branch to origin (github repo)
 > git push -u origin <branch>
 
 Skifte til eksiterende branch med indhold og updatere filerne lokalt til branchens indhold
-> Git checkout <branch >
+> Git checkout <branch>
 > Git reset --hard origin/<branch>
