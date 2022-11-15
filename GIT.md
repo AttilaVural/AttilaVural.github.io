@@ -90,3 +90,6 @@ Push contents of <branch> to origin (github)
 # If you are not allowed to push your local changes due to content being updated on the branch
 Be carefull as this will override your local changes if they conflict with the upstream changes.
 > git pull origin \<branch>
+
+  
+# in case you worked in local repo, and changed some file via github interface, then you need to do a git fetch+merge (or git pull) before being able to push you changes. But how do you know exactly what files will be changed locally before you pull? Git diff or whatchanged command only shows the difference between the local and remote content. Need something more specific.
