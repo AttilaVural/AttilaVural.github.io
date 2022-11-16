@@ -18,3 +18,5 @@ Skriv i en terminal:
 From <https://stackoverflow.com/questions/37029089/how-to-install-nodejs-lts-on-windows-as-a-local-user-without-admin-rights>
 
 [GIT](GIT.md)
+
+https://tuskr.app/learn (software testing)
