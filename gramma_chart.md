@@ -30,6 +30,11 @@ flowchart LR
                 C13---D2.15["حروف الشرط (conditional particles)"]
                 C13---D2.16["Miscellaneous"]
         A---B2[جملة]
-            B2---C21["..."]
+            subgraph sentence
+            B2---C21["فعليّة (Verbal)"]
+            B2---C22["اسميّة (Nominal)"]
+                C22---D41["The adjectival phrase"]
+                C22---D42["The possessive phrase"]
+            end
 ```
             
