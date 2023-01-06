@@ -1,3 +1,4 @@
+```mermaid
 flowchart LR
     A[Struct]
         A---B1[كلمة]
@@ -30,4 +31,5 @@ flowchart LR
                 C13---D2.16["Miscellaneous"]
         A---B2[جملة]
             B2---C21["..."]
+```
             
