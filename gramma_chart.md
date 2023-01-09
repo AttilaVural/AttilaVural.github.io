@@ -1,4 +1,7 @@
-```mermaid
+```html
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+<div class="mermaid">
 flowchart LR
     A[Struct]
         A---B1[كلمة]
@@ -36,5 +39,5 @@ flowchart LR
                 C22---D41["The adjectival phrase"]
                 C22---D42["The possessive phrase"]
             end
+</div>
 ```
-            
