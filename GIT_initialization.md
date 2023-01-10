@@ -18,7 +18,7 @@ Clone the repo using ssh (.git address). Note: you can also clone using the http
 
 > git clone git@github.com:AttilaVural:\<repo name\>.git
 
-Add changes and push (Python example)
+**Add changes and push (Python example)**
   
 > cd \<cloned repo directory\>
 
@@ -41,7 +41,7 @@ Stage newly created/deleted/edited files
 Commit
 > git commit -m "first commit"'
 
-**this is part is executed exactly now, since git will not create a master branch until you commit something)**
+this is part is executed exactly now, since git will not create a master branch until you commit something)
 
 Create \<branch\>
 > git branch \<branch\>
@@ -85,10 +85,10 @@ Clone the repo using ssh (.git address). Note: you can also clone using the http
 **Creating and switching branch**
   
 Create \<branch\>
-> git branch <branch>
+> git branch \<branch\>
 
 Switch to \<branch\>
-> git checkout <branch>
+> git checkout \<branch\>
 
 Skifte til eksiterende branch med indhold og updatere filerne lokalt til branchens indhold
 > Git reset --hard origin/\<branch\>
