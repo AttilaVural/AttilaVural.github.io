@@ -1,17 +1,27 @@
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+
 here is a simple example of two-way data binding using Vue.js:
+```js
+<div id="app">
+  <input v-model="message">
+  <p>{{ message }}</p>
+</div>
 
-    <div id="app">
-      <input v-model="message">
-      <p>{{ message }}</p>
-    </div>
-
-    var app = new Vue({
-      el: '#app',
-      data: {
-        message: 'Hello World!'
-      }
-    })
-
+var app = new Vue({
+  el: '#app',
+  data: {
+    message: 'Hello World!'
+  }
+})
+```
+<div class="mermaid">
+flowchart LR
+    A[Struct]
+        A---B1[كلمة]
+            B1---C11["اِسْم"]
+</div>
 In this example, we have an input element and a paragraph element. The v-model directive is used to bind the value of the input element to a data property called message.
 
 The message property is defined in the Vue instance's data object. The {{ message }} syntax in the paragraph element is a template expression that will be replaced with the value of the message property when the view is rendered.
