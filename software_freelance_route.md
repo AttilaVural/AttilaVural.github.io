@@ -59,3 +59,6 @@ It's also important to remember that the video is an introduction, you will also
 **Sign in to Credly - account created**
 
 **Use the coaching sessions**
+
+# Translation tips
+**Add a Danish-English translation Certificate - you can insert it in UpWorks**
