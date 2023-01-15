@@ -56,9 +56,17 @@ It's also important to remember that the video is an introduction, you will also
 
 **Create a specialized profile**
 
-**Sign in to Credly - account created**
+**Find new certifications through Credly**
 
-**Use the coaching sessions**
+**Use Upwork's coaching sessions**
+
+**Go through Upwork's inbuilt courses**
+
+**You have linked you github profile - work on making it presentable**
+
+**Consider also linking you twitter account to Upworks**
+
+**Make a video introduction of yourself**
 
 # Translation tips
 **Add a Danish-English translation Certificate - you can insert it in UpWorks**
