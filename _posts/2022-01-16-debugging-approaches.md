@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "GIT initialization"
+date:   2023-01-16 08:00:00 +0000
+categories: jekyll update
+---
 what are the different approaches to debugging? 
 
 There are several different approaches to debugging, including:
