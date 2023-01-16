@@ -2,6 +2,8 @@ Putty cannot ssh to an IPv6 server. Tried using square brackets, using port 222 
 
 Filezilla is said to have inbuilt IPv6 support
 
+**Normal workflow when connecting to a new server for the first time:**
+
 ```mermaid
   graph TD;
       1[Create your public key and private key using putty]
