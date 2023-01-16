@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Jekyll hetzner server initialization"
+date:   2023-01-16 13:00:00 +0000
+categories: jekyll update
+---
 **Do not go with IPv6 - you need IPv4**
 
 Reason: Putty cannot ssh to an IPv6 server. It simply does not support IPv6 connection. I tried using square brackets and tried using both port 22 and 222, but nothing worked. From then on, I could only use the terminal built into the Hetzner web-interface, which was terrible, as all the keys were mapped differently, than what I am used to. Also, the resolution was bad.
