@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "GIT initialization"
+date:   2022-11-15 15:00:00 +0000
+categories: jekyll update
+---
+
 ```html
 <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js">
 </script> <script>mermaid.initialize({startOnLoad:true});</script
