@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "GIT initialization"
+title:  "Instal node.js without admin rights"
 date:   2022-10-01 16:00:00 +0000
 categories: jekyll update
 ---
