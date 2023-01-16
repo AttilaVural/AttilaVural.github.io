@@ -59,3 +59,5 @@ From the command line, run:
 Now to export it to you local PC, open a local CMD session and type:
 
 > scp -r root@5.75.230.166:/root/my-awesome-site -r "C:\Users\ATVQ\OneDrive - Novo Nordisk\Desktop"
+
+Now upload the folder to you github pages repo and view it in the browser.
