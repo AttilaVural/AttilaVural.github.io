@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "GIT initialization"
+date:   2022-10-01 16:00:00 +0000
+categories: jekyll update
+---
 Installing node.js on Windows without admin rights
 
 1. Download the node.js LTS binary for Windows (https://nodejs.org/en/download/) and extract it to your desired location
