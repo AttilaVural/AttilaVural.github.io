@@ -37,3 +37,11 @@ From the Jekyll website:
 Now install Jekyll: 
 
 > gem install jekyll bundler
+
+Create a Jekyll site:
+
+> jekyll new my-awesome-site
+
+Now to export it to you local PC, open a local CMD session and type:
+
+> scp -r root@5.75.230.166:/root/my-awesome-site -r "C:\Users\ATVQ\OneDrive - Novo Nordisk\Desktop"
