@@ -42,6 +42,20 @@ Create a Jekyll site:
 
 > jekyll new my-awesome-site
 
+> cd my-awesome-site
+
+Add "#" to the beginning of the line that starts with gem "jekyll" to comment out this line.
+
+Add the github-pages gem by editing the line starting with # gem "github-pages". Change this line to:
+
+> gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins
+
+Replace GITHUB-PAGES-VERSION with the latest supported version of the github-pages gem. You can find this version here: "Dependency versions."
+
+From the command line, run: 
+
+> bundle install.
+
 Now to export it to you local PC, open a local CMD session and type:
 
 > scp -r root@5.75.230.166:/root/my-awesome-site -r "C:\Users\ATVQ\OneDrive - Novo Nordisk\Desktop"
