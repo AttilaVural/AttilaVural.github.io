@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Software freelance route"
+date:   2023-01-16 09:00:00 +0000
+categories: jekyll update
+---
 # Becoming a software freelancer
 
 ## General steps
