@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "GIT notes"
+date:   2023-01-16 15:47:35 +0000
+categories: jekyll update
+---
+
 Push contents of <branch> to origin (github)
 > git push -u origin \<branch>
   
