@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "GIT initialization"
+date:   2022-12-01 11:00:00 +0000
+categories: jekyll update
+---
 # Installing python pip, numpy
 
 Install PIP using this: GitHub - pypa/get-pip: Helper scripts to install pip, in a Python installation that doesn't have it.
