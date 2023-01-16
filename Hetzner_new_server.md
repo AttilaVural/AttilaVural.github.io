@@ -56,6 +56,10 @@ From the command line, run:
 
 > bundle install.
 
+To test the site, type the following, where "--host=\<server public IP adress\>" is needed, because otherwise the jekyll site will only be accessible through "localhost", which is not an option, if you are accessing the server remotely:
+
+> bundle exec jekyll serve --host=5.75.230.166
+
 Now to export it to you local PC, open a local CMD session and type:
 
 > scp -r root@5.75.230.166:/root/my-awesome-site -r "C:\Users\ATVQ\OneDrive - Novo Nordisk\Desktop"
