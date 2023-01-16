@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Pelican static site genator"
+date:   2023-01-10 12:00:00 +0000
+categories: jekyll update
+---
 # Using Pelican to create static websites 
 
 If your site has a minimal amount of styling and HTML boiler-code (navigation bars, footer links etc.), then developing and maintaining a traditional static website project with HTML, CSS and JS files would be a lot of work.
