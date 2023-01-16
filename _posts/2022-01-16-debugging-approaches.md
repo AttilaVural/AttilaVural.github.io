@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "GIT initialization"
+title:  "Debugging approaches"
 date:   2023-01-16 08:00:00 +0000
 categories: jekyll update
 ---
