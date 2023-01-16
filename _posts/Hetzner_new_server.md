@@ -64,6 +64,19 @@ Now to export it to you local PC, open a local CMD session and type:
 
 > scp -r root@5.75.230.166:/root/my-awesome-site -r "C:\Users\ATVQ\OneDrive - Novo Nordisk\Desktop"
 
-Now open the conf.yaml file and change to you github repo url (eg. https://attilavural.github.io).
+Now open the \_conf.yaml file and make sure these two lines are like so:
+> baseurl: "" # the subpath of your site, e.g. /blog
+> url: "https://attilavural.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-Now upload the folder to you github pages repo and view it in the browser. It is important that you upload it in the topmost directory.
+Now upload the jekyll site source files the *topmost* directory of you github pages repo and view it in the browser. The folder structure should be like this:
+```
+<username>.github.io/
+├─ _posts/
+├─ .gitignore
+├─ 404.html
+├─ Gemfile
+├─ Gemfile.lock
+├─ _config.yml
+├─ about.markdown
+├─ index.markdown
+```
