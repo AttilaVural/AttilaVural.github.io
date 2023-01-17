@@ -85,14 +85,3 @@ The folder structure should be like this:
 ├─ about.markdown
 ├─ index.markdown
 ```
-
-**Enabling mermaid charts:**
-
-The default minima theme lacks the \_include, which jekyll uses to hold content which is persistent acress all pages on your site.
-
-Manuelly create the \_include folder in the repo topmost directory and add the header.html file
-
-
-**The \_site, and \_layout folders used for non-post site pages and different layouts, respectively)
-
-...
