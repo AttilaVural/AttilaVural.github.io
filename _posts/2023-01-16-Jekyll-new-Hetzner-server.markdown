@@ -71,7 +71,9 @@ Now open the \_conf.yaml file and make sure these two lines are like so:
 
 > url: "https://attilavural.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-Now upload the jekyll site source files the *topmost* directory of you github pages repo and view it in the browser. The folder structure should be like this:
+Now upload the jekyll site source files the *topmost* directory of you github pages repo and view it in the browser at https://attilavural.github.io. 
+
+The folder structure should be like this:
 ```
 <username>.github.io/
 ├─ _posts/
@@ -83,3 +85,14 @@ Now upload the jekyll site source files the *topmost* directory of you github pa
 ├─ about.markdown
 ├─ index.markdown
 ```
+
+**Enabling mermaid charts:**
+
+The default minima theme lacks the \_include, which jekyll uses to hold content which is persistent acress all pages on your site.
+
+Manuelly create the \_include folder in the repo topmost directory and add the header.html file
+
+
+**The \_site, and \_layout folders used for non-post site pages and different layouts, respectively)
+
+...
