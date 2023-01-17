@@ -4,6 +4,33 @@ title:  "Jekyll hetzner server initialization"
 date:   2023-01-16 13:00:00 +0000
 categories: jekyll update
 ---
+# Edit: 2023-01-17 - why would you ever do this, when you can instead just clone any of the jekyll theme repos on github?
+You can simply copy paste (clone) all the files from any of the themes found here http://jekyllthemes.org/ into your empty \<username\>.github.io repo, refresh the url https://\<username\>.github.io and it will now show a fully working jekyll site.
+  
+I choose to clone the default minima theme repo (https://github.com/jekyll/minima). 
+  
+Now I added all my posts in the \_posts folder.
+  
+Then I added mermaid chart compability by inserting the following in the \_includes\head.html file just before the closing \</head\> tag:
+```
+{%- if page.mermaid -%}
+  <script type="text/javascript"
+    src="https://unpkg.com/mermaid@8.0.0-rc.8/dist/mermaid.min.js">
+  </script>
+  <script>
+  $(document).ready(function() {
+    mermaid.initialize({
+      theme: 'forest'
+    });
+  });
+  </script>
+{%- endif -%}
+```
+
+Note: when you generate the site using the below method with the Ruby CLI, you also get a jekyll site with the minima theme as per default, but for some reason many folders and files are not including, and you have to create them yourself in order to customize the site (I wanted to add mermaid chart compability). However, the build process constantly crashed, when I tried creating these files and folders. I think the CLI generated jekyll sites are for hosting outside github pages - either locally or on another webserver, which does not have inbuilt jekyll support like github pages.
+
+# Creating jekyll site using the Ruby CLI
+  
 **Do not go with IPv6 - you need IPv4**
 
 Reason: Putty cannot ssh to an IPv6 server. It simply does not support IPv6 connection. I tried using square brackets and tried using both port 22 and 222, but nothing worked. From then on, I could only use the terminal built into the Hetzner web-interface, which was terrible, as all the keys were mapped differently, than what I am used to. Also, the resolution was bad.
