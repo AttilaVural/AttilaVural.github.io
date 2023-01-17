@@ -3,9 +3,10 @@ layout: post
 title:  "Arabic gramma chart"
 date:   2023-01-05 15:00:00 +0000
 categories: jekyll update
+mermaid: true
 ---
 
-```mermaid
+<div class="mermaid">
 graph LR
     A[Struct]
         A---B1[كلمة]
@@ -61,4 +62,4 @@ graph LR
                 C22---D41["The adjectival phrase"]
                 C22---D42["The possessive phrase"]
         end
-```
+</div>
