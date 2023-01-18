@@ -44,9 +44,32 @@ Let's install and run the project, just to see what we have so far:
 > npm install
 > npm run dev
 
-![image](https://user-images.githubusercontent.com/115409427/213208050-af33e161-cd77-4113-9847-a2359fd80852.png)
-
 ![image](https://user-images.githubusercontent.com/115409427/213210869-5554542c-47cd-440c-a0c2-040808b7e87e.png)
+
+## 2. Install the necessary libraries and dependencies.
+Exit the exit the running VITE session in your terminal (ctr + c on Windows).
+
+To install axios, you can use npm by running the following command in the root of your project: 
+> npm install axios. 
+
+This will allow you to easily make API requests from your Vue.js components.
+
+To install vue-chartjs, you can use npm by running the command: 
+> npm install vue-chartjs chart.js
+
+This library allows you to easily create charts and data visualizations in your Vue.js components.
+
+
+
+
+
+
+
+# Backend
+
+## Install dependencies
+To interact with twitter API you need to install python twitter library, you can install it by running the command pip install python-twitter in your command prompt.
+To perform Sentiment Analysis, you need to install NLTK library which can be installed by running the command pip install nltk
 
 
 
