@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Jekyll hetzner server initialization"
+title:  "Setting up a jekyll site on Github Pages - step by step and with no CLI needed!"
 date:   2023-01-16 13:00:00 +0000
-categories: jekyll update
+categories: Jekyll
 ---
 # Edit: 2023-01-17 - why would you ever do this, when you can instead just clone any of the jekyll theme repos on github?
 You can simply copy paste (clone) all the files from any of the themes found here http://jekyllthemes.org/ into your empty \<username\>.github.io repo, refresh the url https://\<username\>.github.io and it will now show a fully working jekyll site.
