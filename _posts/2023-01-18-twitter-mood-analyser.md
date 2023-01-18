@@ -9,6 +9,9 @@ You will learn how to use python and the twitter API for retrieve tweets, using 
 and create cool data vizualisations. 
 Not only is this project a great way to learn new skills, it's also a fun and unique project to add to your portfolio
 
+Vue.js will be used for building a static single-page-application front-end consisting of static html, css and js files. 
+All processing will be done by performing POST API calls to the backend server running python FLASK.
+
 ## Prerequisites
 * Basic knowledge of JavaScript and Vue.js
 * Basic knowledge of Python
@@ -29,9 +32,19 @@ as the back-end runtime environment, or you can use it to build a static front-e
 ** Installing node.js **
 
 ## 1- Create a new Vue.js project using the Vue CLI. 
-Assuming you have and up-to-date installation of node.js on your workstation, open up your favorite terminal. Next, type the following to to create the Vue.js project with an up-to-date version of Vue.js:
+Assuming you have and up-to-date installation of node.js on your workstation, open up your favorite terminal. Next, type the following to create the Vue.js project with an up-to-date version of Vue.js:
 > npm init vue@latest
 
 Enter the Project name, package name, and answer _No_ to all prompts except for _Add Vue Router for Single Page Application development?_ where you should choose _Yes_, since we want to the user to be able to load different pages without refreshing the browser.
 
-Enter 
+Enter your newly created folder:
+> cd "Twitter mood analyzer"
+
+Let's install and run the project, just to see what we have so far:
+> npm install
+> npm run dev
+
+![image](https://user-images.githubusercontent.com/115409427/213208050-af33e161-cd77-4113-9847-a2359fd80852.png)
+
+
+
