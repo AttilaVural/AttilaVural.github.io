@@ -4,6 +4,8 @@ title:  "Practical example of a CI/CD workflow - what is CI and what is CD?"
 date:   2023-01-17 11:00:00 +0000
 categories: jekyll update
 ---
+Welcome to the world of CI/CD, the methodology that has changed software development. Adopted widely since the early 2010s, CI/CD streamlines the build, test, and deployment phases of software development, which are concepts that will be explained in this post, along with the benefits of CI/CD.
+
 Here's an example of a basic CI/CD workflow for a generic code project:
 
 1. CI: Code changes: A developer makes changes to the codebase, such as adding new features or fixing bugs. They then push the changes to a version control system like Git.
