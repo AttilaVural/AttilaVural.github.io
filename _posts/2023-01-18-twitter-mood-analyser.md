@@ -19,9 +19,6 @@ graph LR
     A-- POST request -->B[Python Flask server]
     B-- JSON object -->A
 </div>
-    
-            
-</div>
 
 ## Prerequisites
 * Basic knowledge of JavaScript and Vue.js
