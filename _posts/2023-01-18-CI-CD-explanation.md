@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Practical example of a CI/CD workflow - what is CI and what is CD?"
-date:   2023-01-18 11:00:00 +0000
+date:   2023-01-17 11:00:00 +0000
 categories: jekyll update
 ---
 Here's an example of a basic CI/CD workflow:
