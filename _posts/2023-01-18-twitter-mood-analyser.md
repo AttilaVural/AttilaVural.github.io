@@ -13,7 +13,7 @@ Not only is this project a great way to learn new skills, it's also a fun and un
 Vue.js will be used for building a static Single Page Application (SPA) front-end consisting of static html, css and js files. 
 All processing will be done by performing POST API calls to the backend server running python FLASK.
 
-<div class="mermaid>
+<div class="mermaid">
 graph LR
     A[Vue.js static SPA]
     A-- POST request -->B[Python Flask server]
