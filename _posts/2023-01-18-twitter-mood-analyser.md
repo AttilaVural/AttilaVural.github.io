@@ -29,4 +29,9 @@ as the back-end runtime environment, or you can use it to build a static front-e
 ** Installing node.js **
 
 ## 1- Create a new Vue.js project using the Vue CLI. 
-This will set up the basic structure of your project and allow you to easily add components and libraries.
+Assuming you have and up-to-date installation of node.js on your workstation, open up your favorite terminal. Next, type the following to to create the Vue.js project with an up-to-date version of Vue.js:
+> npm init vue@latest
+
+Enter the Project name, package name, and answer _No_ to all prompts except for _Add Vue Router for Single Page Application development?_ where you should choose _Yes_, since we want to the user to be able to load different pages without refreshing the browser.
+
+Enter 
