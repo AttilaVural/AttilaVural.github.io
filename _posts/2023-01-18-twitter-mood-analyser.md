@@ -3,14 +3,25 @@ layout: post
 title:  "Twitter Mood Analyzer using python and Vue.js"
 date:   2023-01-18 15:00:00 +0100
 categories: jekyll update
+mermaid: true
 ---
 In this blog post, we will guide you through the process of creating a "Twitter Mood Analyzer" using Vue.js and Python. 
 You will learn how to use python and the twitter API for retrieve tweets, using deep learning libraries to perform sentiment analysis, 
 and create cool data vizualisations. 
 Not only is this project a great way to learn new skills, it's also a fun and unique project to add to your portfolio
 
-Vue.js will be used for building a static single-page-application front-end consisting of static html, css and js files. 
+Vue.js will be used for building a static Single Page Application (SPA) front-end consisting of static html, css and js files. 
 All processing will be done by performing POST API calls to the backend server running python FLASK.
+
+<div class="mermaid>
+graph LR
+    A[Vue.js static SPA]
+    A-- POST request -->B[Python Flask server]
+    B-- JSON object -->A
+</div>
+    
+            
+</div>
 
 ## Prerequisites
 * Basic knowledge of JavaScript and Vue.js
