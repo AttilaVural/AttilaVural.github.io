@@ -27,3 +27,4 @@ permalink: /misc/
       </li>
       {%- endfor -%}
     </ul>
+  {%- endif %}
