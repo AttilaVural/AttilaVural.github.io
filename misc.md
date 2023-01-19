@@ -4,7 +4,7 @@ title: Project portfolio
 permalink: /misc/
 ---
 
-  {% assign posts = site.posts %}
+  {% assign posts = site.categories.misc %}
 
 
   {%- if posts.size > 0 -%}
