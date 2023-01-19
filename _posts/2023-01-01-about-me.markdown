@@ -2,7 +2,7 @@
 layout: post
 title:  "About me"
 date:   2023-01-01 15:00:00 +0000
-categories: jekyll update
+categories: misc
 ---
 ## Bios - Attila Vural
 
