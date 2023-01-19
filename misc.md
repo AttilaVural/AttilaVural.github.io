@@ -14,7 +14,8 @@ permalink: /misc/
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
   {% else %}
-    {% assign posts = site.posts %}
+    {% # assign posts = site.posts %}
+    {% assign posts = site.categories.misc %}
   {% endif %}
 
 
