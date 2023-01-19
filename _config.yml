@@ -49,6 +49,7 @@ minima:
 header_pages:
   - about.md
   - portfolio.md
+  - misc.md
 
 # Set to `true` to show excerpts on the homepage.
 #
