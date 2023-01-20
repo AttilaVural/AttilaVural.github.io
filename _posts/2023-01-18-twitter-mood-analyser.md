@@ -21,8 +21,38 @@ graph LR
 </div>
 
 ## Prerequisites
-* Basic knowledge of JavaScript and Vue.js
-* Basic knowledge of Python
+* Python 3.2.2.22.2.2. or newer
+
+## 1. fetching tweets - Tweeper and NLKT
+Open up your favorite terminal and create the project folder:
+> mkdir twitter_mood
+
+> cd twitter_mood
+
+2. Create a virtual environmens - installating the python packages globally could break system tools or other projects.
+> python -m venv env
+
+You will notice that this creates the _env_ directory. Since a virtual environment is "just" this directory, which containing installed libraruesm, binaries and scripts under it, you can remove it the same way you remove any directory.
+
+Activate the virtual environment and install the needed packages:
+> .\env\scripts\activate
+    
+now when you clone this repo, you can simply run:
+> pip install -r requirements.txt
+  
+  
+  
+  
+2) Use the provided .db sqllite database or delete it and create a new by deleting existing .db file and running:
+> python create_db.py
+
+3) Run the application
+> python bookmanager.py
+
+4) Navigate to localhost:5000 in your browser
+
+
+
 
 ## Setting up the environment
 Vue.js is not built on top of Node.js, but it does require Node.js to be installed in order to use the Vue CLI (Command Line Interface) tool 
