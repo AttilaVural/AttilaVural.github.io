@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Project portfolio
+title: Misc.
 permalink: /misc/
 ---
 
