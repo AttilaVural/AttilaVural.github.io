@@ -4,7 +4,7 @@ title: Misc.
 permalink: /misc/
 ---
 
-  {% assign posts = site.categories.misc %}
+  {%- assign posts = site.categories.misc -%}
 
 
   {%- if posts.size > 0 -%}
