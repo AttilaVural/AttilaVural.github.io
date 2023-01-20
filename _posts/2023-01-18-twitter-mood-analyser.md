@@ -76,8 +76,11 @@ This library allows you to easily create charts and data visualizations in your 
 # Backend
 
 ## Install dependencies
-To interact with twitter API you need to install python twitter library, you can install it by running the command pip install python-twitter in your command prompt.
-To perform Sentiment Analysis, you need to install NLTK library which can be installed by running the command pip install nltk
+To interact with twitter API you need to install python twitter library, you can install it by running the command 
+> pip install python-twitter in your command prompt.
+
+To perform Sentiment Analysis, you need to install NLTK library which can be installed by running the command 
+> pip install nltk
 
 
 
