@@ -3,10 +3,7 @@ layout: page
 title: Misc.
 permalink: /misc/
 ---
-
   {%- assign posts = site.categories.misc -%}
-
-
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
