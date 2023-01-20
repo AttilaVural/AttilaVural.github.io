@@ -22,6 +22,7 @@ graph LR
 
 ## Prerequisites
 * Python 3.2.2.22.2.2. or newer
+* PIP (python package manager)
 
 ## 1. fetching tweets - Tweeper and NLKT
 Open up your favorite terminal and create the project folder:
@@ -36,15 +37,21 @@ You will notice that this creates the _env_ directory. Since a virtual environme
 
 Activate the virtual environment and install the needed packages:
 > .\env\scripts\activate
-    
-now when you clone this repo, you can simply run:
+
+**Install dependencies**
+To interact with twitter API you need to install python twitter library, you can install it by running the command 
+> pip install python-twitter in your command prompt.
+
+To perform Sentiment Analysis, you need to install NLTK library which can be installed by running the command 
+> pip install nltk 
+
+Remember to export all installed libraries to a text file using the _pip freeze_ command:
+> pip freeze > requirements.txt
+
+Now you can exclude the relatively large env folder, from your commits and instead just include your requirements.txt file in your repo. Now when anyone wants to clone this repo, they can simply download the source files, create a fresh virtual environment and recreate your env folder by running:
 > pip install -r requirements.txt
-  
-  
-  
-  
-2) Use the provided .db sqllite database or delete it and create a new by deleting existing .db file and running:
-> python create_db.py
+
+
 
 3) Run the application
 > python bookmanager.py
@@ -99,18 +106,6 @@ This library allows you to easily create charts and data visualizations in your 
 
 
 
-
-
-
-
-# Backend
-
-## Install dependencies
-To interact with twitter API you need to install python twitter library, you can install it by running the command 
-> pip install python-twitter in your command prompt.
-
-To perform Sentiment Analysis, you need to install NLTK library which can be installed by running the command 
-> pip install nltk
 
 
 
