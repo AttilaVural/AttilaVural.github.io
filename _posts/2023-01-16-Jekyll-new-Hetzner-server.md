@@ -14,7 +14,7 @@ Now I added all my posts in the \_posts folder.
 Then I added mermaid chart compability by inserting the following in the \_includes\head.html file just before the closing \</head\> tag:
 
 {% raw %}
-```
+```liquid
 {%- if page.mermaid -%}
   <script type="text/javascript"
     src="https://unpkg.com/mermaid@8.0.0-rc.8/dist/mermaid.min.js">
