@@ -33,8 +33,8 @@ Then I added mermaid chart compability by inserting the following in the \_inclu
 **Adding a separate section showing only posts categorized as "Misc"**
 1. I created a new file _misc.md_ in root folder.
 2. I added misc.md under the _header_pages_ option in the _config.yml_ file.
-3. Inside the misc.md file, I copied the yaml frontmatter from the about.md page and changed the _title_ and _permalink_ values. The _layout: page_ code ensures that the content of /layout/page.md is included, with the content of misc.md itself being placed inside the _{{ content }}_ section inside page.md.
-4. The content of misc.md, is what comes after the frontmatter. I just copied this directly from the \layout\home.md file and only replaced _site.posts_ with _site.categories.misc_. I originally wanted to use _layout: home_ in the frontmatter and only write _{%- assign site.posts = site.categories.misc -%}_ in the content,  but this did not work, and I do not know wether this is due to site.posts being an object or if this assignment is overwritten by the content of home.md.
+3. Inside the misc.md file, I copied the yaml frontmatter from the about.md page and changed the _title_ and _permalink_ values. The _layout: page_ code ensures that the content of /layout/page.md is included, with the content of misc.md itself being placed inside the _\{\{ content \}\}_ section inside page.md.
+4. The content of misc.md, is what comes after the frontmatter. I just copied this directly from the \layout\home.md file and only replaced _site.posts_ with _site.categories.misc_. I originally wanted to use _layout: home_ in the frontmatter and only write _assign site.posts = site.categories.misc_ in the content,  but this did not work, and I do not know wether this is due to site.posts being an object or if this assignment is overwritten by the content of home.md.
 
 {% raw %}
 ```liquid
@@ -43,7 +43,7 @@ layout: page
 title: Misc.
 permalink: /misc/
 ---
-  {%- assign posts = site.categories.misc -%}
+  {%- assign posts = site.categories.Misc -%}
 
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
