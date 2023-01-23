@@ -3,16 +3,17 @@ layout: page
 title: About
 permalink: /about/
 ---
+## Bios - Attila Vural
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Full stack web developer since 2013.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Background: Masters degree in engineering from the Danish Technical University.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Projects: ...
 
+Certificates: ....
 
-[jekyll-organization]: https://github.com/jekyll
+Specialized in: ...
+
+Working knowledge of: ....
+
