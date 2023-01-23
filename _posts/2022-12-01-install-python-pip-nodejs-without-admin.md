@@ -2,7 +2,7 @@
 layout: post
 title:  "Install python pip node.js without admin rights"
 date:   2022-12-01 11:00:00 +0000
-categories: jekyll update
+categories: Code
 ---
 # Installing python pip, numpy
 

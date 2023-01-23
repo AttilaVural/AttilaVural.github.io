@@ -2,7 +2,7 @@
 layout: post
 title:  "Arabic gramma chart"
 date:   2023-01-05 15:00:00 +0000
-categories: jekyll update
+categories: Misc
 mermaid: true
 ---
 

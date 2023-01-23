@@ -2,7 +2,7 @@
 layout: post
 title:  "Pelican static site genator"
 date:   2023-01-10 12:00:00 +0000
-categories: jekyll update
+categories: Code
 ---
 # Using Pelican to create static websites 
 

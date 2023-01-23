@@ -2,7 +2,7 @@
 layout: post
 title:  "GIT initialization"
 date:   2023-01-15 15:00:00 +0000
-categories: jekyll update
+categories: Code
 ---
 # Initial setup
 **Create a keygen. Choose eg. "C:/users/ATVQ/.shh"**

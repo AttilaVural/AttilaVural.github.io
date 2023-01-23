@@ -2,7 +2,7 @@
 layout: post
 title:  "Practical example of a CI/CD workflow - what is CI and what is CD?"
 date:   2023-01-17 11:00:00 +0000
-categories: jekyll update
+categories: Code
 ---
 Welcome to the world of CI/CD, the methodology that has changed software development. Adopted widely since the early 2010s, CI/CD streamlines the build, test, and deployment phases of software development, which are concepts that will be explained in this post, along with the benefits of CI/CD.
 

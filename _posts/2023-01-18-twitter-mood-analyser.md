@@ -2,7 +2,7 @@
 layout: post
 title:  "Twitter Mood Analyzer using python and Vue.js"
 date:   2023-01-18 15:00:00 +0100
-categories: jekyll update
+categories: Code
 mermaid: true
 ---
 In this blog post, we will guide you through the process of creating a "Twitter Mood Analyzer" using Vue.js and Python. 

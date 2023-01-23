@@ -2,7 +2,7 @@
 layout: post
 title:  "Instal node.js without admin rights"
 date:   2022-10-01 16:00:00 +0000
-categories: jekyll update
+categories: Code
 ---
 Installing node.js on Windows without admin rights
 

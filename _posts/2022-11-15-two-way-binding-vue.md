@@ -2,7 +2,7 @@
 layout: post
 title:  "Two-way binding in vue.js"
 date:   2022-11-15 15:00:00 +0000
-categories: jekyll update
+categories: Code
 ---
 
 ```html

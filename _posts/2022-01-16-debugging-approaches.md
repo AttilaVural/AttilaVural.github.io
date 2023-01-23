@@ -2,7 +2,7 @@
 layout: post
 title:  "Debugging approaches"
 date:   2023-01-16 08:00:00 +0000
-categories: jekyll update
+categories: Code
 ---
 what are the different approaches to debugging? 
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "IT risk assessment meeting questions"
 date:   2023-01-15 15:00:00 +0000
-categories: jekyll update
+categories: Misc
 ---
 1. Can you explain the processes for data changes and how they are authorized by the data owner or process owner?
 2. Can you explain the measures in place for data integrity, including any residual risks and any mitigating controls used?
