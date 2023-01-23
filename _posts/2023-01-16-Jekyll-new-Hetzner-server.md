@@ -131,7 +131,8 @@ The front page is defined by the \layouts\home.md file, which has the following 
 ```
 {% endraw %}
 
-Into the following:
+Into the following, where i just removed all liquid code related to the paginator function, 
+and changed _assign posts = site.posts_ into _assign posts = site.categories.Code_:
 
 {% raw %}
 ```liquid 
