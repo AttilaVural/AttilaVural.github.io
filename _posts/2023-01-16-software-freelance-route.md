@@ -76,3 +76,6 @@ It's also important to remember that the video is an introduction, you will also
 
 # Translation tips
 **Add a Danish-English translation Certificate - you can insert it in UpWorks**
+
+## Inspiration til blog/SoMe profiler
+https://whatapalaver.co.uk/
