@@ -13,22 +13,20 @@ Now I added all my posts in the \_posts folder.
   
 Then I added mermaid chart compability by inserting the following in the \_includes\head.html file just before the closing \</head\> tag:
 
-{% highlight liquid %}
-
-	{%- if page.mermaid -%}
-	  <script type="text/javascript"
-		src="https://unpkg.com/mermaid@8.0.0-rc.8/dist/mermaid.min.js">
-	  </script>
-	  <script>
-	  $(document).ready(function() {
-		mermaid.initialize({
-		  theme: 'forest'
-		});
-	  });
-	  </script>
-	{%- endif -%}
-
-{% endhighlight %}
+```
+{%- if page.mermaid -%}
+  <script type="text/javascript"
+    src="https://unpkg.com/mermaid@8.0.0-rc.8/dist/mermaid.min.js">
+  </script>
+  <script>
+  $(document).ready(function() {
+    mermaid.initialize({
+      theme: 'forest'
+    });
+  });
+  </script>
+{%- endif -%}
+```
 
 **Adding a separate section showing only posts categorized as "Misc"**
 1. I created a new file _misc.md_ in root folder.
@@ -36,6 +34,7 @@ Then I added mermaid chart compability by inserting the following in the \_inclu
 3. Inside the misc.md file, I copied the yaml frontmatter from the about.md page and changed the _title_ and _permalink_ values. The _layout: page_ code ensures that the content of /layout/page.md is included, with the content of misc.md itself being placed inside the _{{ content }}_ section inside page.md.
 4. The content of misc.md, is what comes after the frontmatter. I just copied this directly from the \layout\home.md file and only replaced _site.posts_ with _site.categories.misc_. I originally wanted to use _layout: home_ in the frontmatter and only write _{%- assign site.posts = site.categories.misc -%}_ in the content,  but this did not work, and I do not know wether this is due to site.posts being an object or if this assignment is overwritten by the content of home.md.
 
+{% raw %}
 ```liquid
 ---
 layout: page
@@ -66,11 +65,13 @@ permalink: /misc/
     </ul>
   {%- endif %}
 ```
+{% endraw %}
 
 **Showing only posts tagged with "Code" on the front page**
 
 The front page is defined by the \layouts\home.md file, which has the following code:
 
+{% raw %}
 ```liquid
 <div class="home">
   {%- if page.title -%}
@@ -126,9 +127,11 @@ The front page is defined by the \layouts\home.md file, which has the following 
   {%- endif -%}
 </div>
 ```
+{% endraw %}
 
 Into the following:
 
+{% raw %}
 ```liquid 
 <div class="home">
   {%- if page.title -%}
@@ -162,7 +165,7 @@ Into the following:
   {%- endif -%}
 </div>
 ```
-
+{% endraw %}
 
 
 Note: when you generate the site using the below method with the Ruby CLI, you also get a jekyll site with the minima theme as per default, but for some reason many folders and files are not including, and you have to create them yourself in order to customize the site (I wanted to add mermaid chart compability). However, the build process constantly crashed, when I tried creating these files and folders. I think the CLI generated jekyll sites are for hosting outside github pages - either locally or on another webserver, which does not have inbuilt jekyll support like github pages.
