@@ -24,7 +24,10 @@ graph LR
 * Python 3.2.2.22.2.2. or newer
 * PIP (python package manager)
 
-## 1. fetching tweets - Tweeper and NLKT
+## 1. fetching tweets - SNscraper and vaderSentiment.
+SNscracper - better then tweepy because you don't have to get api login - can scrape more and very simple.
+vaderSentiment - more sophisticated than TextBlob for sentiment analysis.
+
 Open up your favorite terminal and create the project folder:
 > mkdir twitter_mood
 
