@@ -12,19 +12,22 @@ I choose to clone the default minima theme repo (https://github.com/jekyll/minim
 Now I added all my posts in the \_posts folder.
   
 Then I added mermaid chart compability by inserting the following in the \_includes\head.html file just before the closing \</head\> tag:
+
 {% highlight liquid %}
-{%- if page.mermaid -%}
-  <script type="text/javascript"
-    src="https://unpkg.com/mermaid@8.0.0-rc.8/dist/mermaid.min.js">
-  </script>
-  <script>
-  $(document).ready(function() {
-    mermaid.initialize({
-      theme: 'forest'
-    });
-  });
-  </script>
-{%- endif -%}
+
+	{%- if page.mermaid -%}
+	  <script type="text/javascript"
+		src="https://unpkg.com/mermaid@8.0.0-rc.8/dist/mermaid.min.js">
+	  </script>
+	  <script>
+	  $(document).ready(function() {
+		mermaid.initialize({
+		  theme: 'forest'
+		});
+	  });
+	  </script>
+	{%- endif -%}
+
 {% endhighlight %}
 
 **Adding a separate section showing only posts categorized as "Misc"**
