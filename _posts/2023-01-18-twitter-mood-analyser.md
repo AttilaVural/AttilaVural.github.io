@@ -5,6 +5,13 @@ date:   2023-01-18 15:00:00 +0100
 categories: Code
 mermaid: true
 ---
+Steps: 
+0. Create a new folder on your desktop called _Twitter_sentiment_.
+1. Follow the steps in my post about setting up a simple bokeh server, and copy the resulting _bokeh_server.py_ file into the _Twitter_sentiment_ folder. [Link til post om at opsætte bokeh server application]
+2. Follow the step in my post about setting up a simple python script for scraping Twitter posts using the SNscrape library. Copy the resulting _SNscraper.py_ file into the _Twitter_sentiment folder_.
+
+
+
 In this blog post, we will guide you through the process of creating a "Twitter Mood Analyzer" using Vue.js and Python. 
 You will learn how to use python and the twitter API for retrieve tweets, using deep learning libraries to perform sentiment analysis, 
 and create cool data vizualisations. 
