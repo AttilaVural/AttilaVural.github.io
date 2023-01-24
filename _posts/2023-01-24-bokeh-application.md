@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bokeh server application embedded in a static page"
-date:   2022-11-15 15:00:00 +0000
+date:   2023-01-24 15:00:00 +0000
 categories: Code
 mermaid: true
 ---
