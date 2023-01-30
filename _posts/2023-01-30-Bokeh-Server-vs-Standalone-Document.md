@@ -1,11 +1,13 @@
 # Bokeh Server vs. Standalone Documents
 ![image](https://user-images.githubusercontent.com/115409427/215541654-841f9ca4-cefd-4ba7-843e-0c4b6220917f.png)
 
-**Goal:** I want to create a interactive front-end to visualize various data KPI scraped from twitter. Requirements:
+**Goal:** I want to create a interactive front-end to visualize various data KPI scraped from twitter. 
+
+Requirements:
 * I must be able to host it on my github pages blog with some pre-selected sample data.
 * It should be able to fetch new data using AJAX calls to a FLASK REST API backend.
 
-To avoid reinventing the wheel, I will use _Bokeh_, which is a open source python library for visualizing data - especially for on web pages.
+To avoid reinventing the wheel, I will use _Bokeh_, which is a open source python library for visualizing data - especially on web pages.
 
 The are currently three ways to generate and display a Bokeh plot on a web page:
 
