@@ -1,4 +1,9 @@
-# Bokeh Server vs. Standalone Documents
+---
+layout: post
+title:  "Bokeh Server vs. Standalone Documents"
+date:   2023-01-30 15:00:00 +0000
+categories: Code
+---
 ![image](https://user-images.githubusercontent.com/115409427/215541654-841f9ca4-cefd-4ba7-843e-0c4b6220917f.png)
 
 **Goal:** I want to create a interactive front-end to visualize various data KPI scraped from twitter. 
