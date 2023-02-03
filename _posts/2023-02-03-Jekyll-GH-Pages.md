@@ -14,8 +14,8 @@ mermaid: true
 
 ## 3. Upload the Jekyll minima files into the new repo
 ![image](https://user-images.githubusercontent.com/115409427/216628828-508d881a-6739-494c-a339-9dd768497636.png)
-![image](https://user-images.githubusercontent.com/115409427/216629368-4f89319f-7551-452c-866b-5d2cacbcdf96.png)
+![image](https://user-images.githubusercontent.com/115409427/216632204-3cac6458-e4bb-4f6b-91dd-882bc5504aa6.png)
 
-## Now type _\<username\>.github.io_ into you URL-bar and you should see your working Jekyll site.
+## Now type _\<username\>.github.io_ into your URL-bar, and you should see your working Jekyll site.
 
-Alternatively, you can simply choose another themes from here http://jekyllthemes.org/.
+Alternatively, you can choose another theme from here http://jekyllthemes.org/.
