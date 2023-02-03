@@ -8,20 +8,16 @@ mermaid: true
 
 **Note:** if you add a code block in the top most of the page, the page loads the code block wrong and executes the html code instead of just showing it.
 
-Then I added mermaid chart compability by inserting the following in the \_includes\head.html file just before the closing \</head\> tag:
+
+
+**I added mermaid chart compability by inserting the following in the \_includes\head.html file just before the closing \</head\> tag:**
 
 {% raw %}
 ```liquid
 {%- if page.mermaid -%}
-  <script type="text/javascript"
-    src="https://unpkg.com/mermaid@8.0.0-rc.8/dist/mermaid.min.js">
-  </script>
-  <script>
-  $(document).ready(function() {
-    mermaid.initialize({
-      theme: 'forest'
-    });
-  });
+   <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@9/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true, theme: 'forest' });
   </script>
 {%- endif -%}
 ```
