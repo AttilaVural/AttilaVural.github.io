@@ -6,11 +6,9 @@ categories: Code
 ---
 # Using Pelican to create static websites 
 
-If your site has a minimal amount of styling and HTML boiler-code (navigation bars, footer links etc.), then developing and maintaining a traditional static website project with HTML, CSS and JS files would be a lot of work.
+Developing and maintaining a traditional static website project with only HTML, CSS and JS is hard when you reach a certain amount of content.
 
-Static Site Generators (SSG), such as Pelican, enables the use of a templates to define the structure, layout and internal navigation of your site, so you only have to write the blog posts/articles. Then they export the full site into pure HTML/CSS files.
-
-Pelican does not make much use of JS unlike other SSG's like nuxt.js or hugo.
+Static Site Generators (SSG), such as Pelican, enables the use of a templates to define the structure, layout and generate the internal navigation of your site. Then they export the full site into pure static site consisting of HTML, CSS and Javascript files.
 
 ## Steps
 Created based on the *pelican-quickstart* template.
@@ -39,7 +37,7 @@ Push changes
 
 > git push -u origin test
 
-## Misc. changes
+## Github pages compatibility
 Set *RELATIVE_URLS = True* in pelicanconf.py, otherwise css will be not found when served from GitHub pages.
 
 ## Custom themes
