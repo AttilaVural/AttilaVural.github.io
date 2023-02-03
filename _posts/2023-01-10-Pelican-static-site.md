@@ -14,9 +14,9 @@ Static Site Generators (SSG), such as Pelican, enables the use of a templates to
 Created based on the *pelican-quickstart* template.
 
 Initial setup after cloning repo
-> git clone -b test git@github.com:AttilaVural/AttilaVural.github.io.git
+> git clone git@github.com:AttilaVural/pelican_static_site.git
 
-> cd AttilaVural.github.io
+> cd pelican_static_site
 
 > python -m venv env
 
@@ -35,7 +35,7 @@ Push changes
 
 > git commit -m "edited x and y"
 
-> git push -u origin test
+> git push -u origin
 
 ## Github pages compatibility
 Set *RELATIVE_URLS = True* in pelicanconf.py, otherwise css will be not found when served from GitHub pages.
