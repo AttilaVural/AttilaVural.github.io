@@ -15,10 +15,10 @@ mermaid: true
 
 <div class="mermaid">
   graph TD
-      A[Assess Gross Risk]
+      A([Assess Gross Risk])
         A--> B{What phase is <br> the project in?}
       B -->|Design <br> phase| D{...}
       B -->|Already Built <br> system| E{Are risks stills present?}
-      E -->|No| F[The system is already fully defined <br> and implemented, and there has <br> not been found any need for <br> implementing additional risk controls to <br> mitigate security gaps or potentially <br> failing controls.]
+      E -->|No| F([The system is already fully defined <br> and implemented, and there has <br> not been found any need for <br> implementing additional risk controls to <br> mitigate security gaps or potentially <br> failing controls.])
 </div>
 
