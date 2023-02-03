@@ -11,11 +11,14 @@ mermaid: true
 2. From these URS requirements, selected the corresponding IT risk controls, which have been implemented for the current system, and which might be affected by the planned activities.
 3. Use your knowledge of the IT system to formulate the test-steps needed to ensure that these risk controls work as intended.
 
+
+
 <div class="mermaid">
-graph TD
-    A([Assess Gross Risk]) --> B{What phase is <br> the project in?}
-    B -->|Design <br> phase| D{...}
-    B -->|Already Built <br> system| E{Are risks stills present?}
-    E -->|No| F([The system is already fully defined <br> and implemented, and there has <br> not been found any need for <br> implementing additional risk controls to <br> mitigate security gaps or potentially <br> failing controls.])
+  graph TD
+      A([Assess Gross Risk]) 
+        A--> B{What phase is <br> the project in?}
+      B -->|Design <br> phase| D{...}
+      B -->|Already Built <br> system| E{Are risks stills present?}
+      E -->|No| F([The system is already fully defined <br> and implemented, and there has <br> not been found any need for <br> implementing additional risk controls to <br> mitigate security gaps or potentially <br> failing controls.])
 </div>
 
