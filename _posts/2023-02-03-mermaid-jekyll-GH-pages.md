@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Using Mermaid charts on your GitHub Pages hosted Jekyll site"
-date:   2023-02-03 15:00:00 +0000
+date:   2023-02-03 12:00:00 +0000
 categories: Code
 mermaid: true
 ---
