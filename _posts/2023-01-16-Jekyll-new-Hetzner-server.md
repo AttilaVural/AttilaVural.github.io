@@ -1,12 +1,10 @@
 ---
 layout: post
-title:  "Setting up a jekyll site on Github Pages - step by step and with no CLI needed!"
+title:  "Creating jekyll site using the Ruby CLI"
 date:   2023-01-16 13:00:00 +0000
 categories: Code
 ---
 Note: I prefer the method of just copying the minima repo (link here: ...). Note that when you generate the site using the below method with the Ruby CLI, you also get a jekyll site with the minima theme as per default, but for some reason many folders and files are not including, and you have to create them yourself in order to customize the site (I wanted to add mermaid chart compability). However, the build process constantly crashed, when I tried creating these files and folders. I think the CLI generated jekyll sites are for hosting outside github pages - either locally or on another webserver, which does not have inbuilt jekyll support like github pages.
-
-# Creating jekyll site using the Ruby CLI
   
 **Do not go with IPv6 - you need IPv4**
 

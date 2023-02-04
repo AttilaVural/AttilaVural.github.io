@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "GIT initialization"
-date:   2023-01-15 15:00:00 +0000
+date:   2016-01-15 15:00:00 +0000
 categories: Code
 ---
 # Initial setup
