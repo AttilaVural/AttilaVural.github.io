@@ -1,0 +1,54 @@
+site_name: Test
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: grey
+  icon:
+    logo: octicons/codescan-checkmark-16
+  features:
+    - navigation.tabs
+    - navigation.tracking
+    - navigation.instant
+    - navigation.path
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+  
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+
+nav:
+  - Python:
+    - python/index.md
+    - Page 1: python/2nd_page.md
+    
+  - GxP in Pharma:
+    - gxp/index.md    
+    - QMS:
+        - Overview: gxp/QMS.md
+    - Validation:
+        - System Verification: gxp/sys_verif.md
+        - Requirements to fulfill - URS: URS.md
+        - Defining the URS: defining_URS.md
+        - Defining the URS - ITRA: URS_ITRA.md
+        - Validation Deviations: VDV.md
+        - Configuration management - CS/CIL: CS.md
+        - Engineering Changes: Eng_changes.md
+    
+    - Configuration Management: 
+        - Configuration Management System: CMS.md
+    - Deviation Management:
+        - Deviation Management System: DMS.md
+        - Deviations: deviations.md
+    - Change management sytem: CR_system.md
+    - Change Requests: CR.md
+    - IT Risk: gxp/IT_risk.md
+    - CAPA: capa.md
+    
+    
