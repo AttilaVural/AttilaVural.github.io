@@ -2,3 +2,4 @@
 *[GAMP]: Good Automation Practices.
 *[GMP]: Good Manufacturing Practices.
 *[Annex]: A standalone document that offers additional information than contained in the main document.
+*[FDA]: Federal Drug Agency.
