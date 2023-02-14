@@ -21,14 +21,23 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-
+  # These three are used for inline text highlighting, underscoring and striking-through
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  # These two are used to enable the site-wide dictionary
+  - abbr
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
 nav:
     # - Python:
         # - python/index.md
         # - Page 1: python/2nd_page.md
     
-    - cGxP in Pharma:
+    - IT Compliance in Pharma:
         - gxp/index.md    
+        # - Computerized Systems: gxp/CE.md
         # - QMS:
             # - Overview: gxp/QMS.md
         # - Validation:

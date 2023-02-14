@@ -1,14 +1,14 @@
-# IT Regulatory Overview
+# Motivation - Regulations
 
 The most important federal regulations on Computerized Systems are listed below:
 
-## 1. FDA CFR > Title 21 > Part 11 Electronic Records & Signatures
+## 1. FDA CFR, Title 21, Part 11 - Electronic Records & Signatures
 The FDA regulatory requirements are seen as the most important laws to comply with.
 
 This [link](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-11) takes you to the full text.
 
 
-## 2. EudraLex (EMA) > Volume 4 (GMP) > Annex 11 Computerised Systems
+## 2. EudraLex (EMA), Volume 4 (GMP), Annex 11 - Computerised Systems
 Often mentioned as _EU GMP Annex 11_.
 
 The full text can be found [here](https://health.ec.europa.eu/system/files/2016-11/annex11_01-2011_en_0.pdf), 
