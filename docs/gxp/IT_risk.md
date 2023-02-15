@@ -1,18 +1,35 @@
 <!-- ## Assessing IT risk based standard URS requirements -->
-## Regulatory foundation
+## Motivation
 
 Section 16 in [EU GMP Annex 11](index.md) states that computerized systems must be risk assessed to ensure a stable business process:
 
-_For the ==availability of computerised systems== supporting critical processes, provisions should 
-be made to ensure continuity of support for those processes in the event of a system 
+_For the availability of computerised systems supporting critical processes, provisions should 
+be made to ==ensure continuity== of support for those processes in the event of a system 
 breakdown (e.g. a manual or alternative system). The time required to bring the alternative 
-arrangements into use ==should be based on risk== and appropriate for a particular system and the 
+arrangements into use should be ==based on risk== and appropriate for a particular system and the 
 business process it supports. These arrangements should be adequately documented and tested_
 
 Federal agencies mandates these assessments, as a sudden production stop could mean a drug shortage, thereby endangering lives.
 
-<!--
+
 ## Assessing Gross Risk
+Gross risk, also called inherent risk, is the amount of risk present, when risk controls are not accounted for. 
+But what features constitute risk controls and what are fundemental aspects of a system? 
+Without drawing the line somewhere, one trying to assess gross risk could keep stripping down a system, as 
+everything can be seen as a risk mitigating factor, until nothing is left.
+
+The FAIR Institute [blog](https://www.fairinstitute.org/blog/inherent-risk-vs.-residual-risk-explained-in-90-seconds) provides a 
+simple way to define the state of a system, from which the gross risk can be assessed as:
+
+_Inherent risk is current risk level given the existing set of controls rather than the hypothetical notion of an absence of any controls_
+
+<!-- 
+## Adding Risk Controls
+This implies two things:
+
+* For systems still in the design phase, the system in its currently fleshed out design should be looked upon as the gross risk state.
+* For already built systems, the gross risk state is the physical system as it is.
+
 
 ## Using the Risk Assessment tool for planning validation activities
 ### Determine relevant IT risk controls to test during validation of an IT system after implenting changes
