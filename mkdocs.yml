@@ -32,8 +32,13 @@ markdown_extensions:
   - pymdownx.snippets:
       auto_append:
         - includes/abbreviations.md
+
+plugins:
+    - mkdocs-jupyter
+  
 nav:
-    # - Python:
+    - Python:
+        - python/DataCamp.ipynb
         # - python/index.md
         # - Page 1: python/2nd_page.md
     
