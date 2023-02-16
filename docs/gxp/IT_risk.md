@@ -11,20 +11,32 @@ business process it supports. These arrangements should be adequately documented
 
 Federal agencies mandates these assessments, as a sudden production stop could mean a drug shortage, thereby endangering lives.
 
+## When to perform a Risk Assessment?
+A risk assessment is most usefull in the design phase, as incorporating risk controls is easiests in this stage, 
+but risk assessment should also be made on finished systems to address changes and new industry trends.
 
-## Assessing Gross Risk
+# How it is performed?
+![Image title](images/Risk x Impact x Likelyhood.png){ loading=lazy width=50% } 
+Focus is on assessing the likelyhood and impact of potential risks. Companies sometimes use standard spreadsheets, 
+which then automatically calculates the gross risk.
+
+## Step 1: Assessing Gross Risk
+### Defining the system state
 Gross risk, also called inherent risk, is the amount of risk present, when risk controls are not accounted for. 
-But what features constitute risk controls and what are fundemental aspects of a system? 
-Without drawing the line somewhere, one trying to assess gross risk could keep stripping down a system, as 
-everything can be seen as a risk mitigating factor, until nothing is left.
+But what features constitute risk controls and what are fundemental aspects of a system? Without drawing the line somewhere, 
+one trying to assess gross risk can keep stripping down a system until nothing is left.
 
-The FAIR Institute [blog](https://www.fairinstitute.org/blog/inherent-risk-vs.-residual-risk-explained-in-90-seconds) provides a 
-simple way to define the state of a system, from which the gross risk can be assessed as:
+The most practical approach, is to define the gross risk of a system, as the 
+_current risk level given the existing set of controls rather than the hypothetical notion of an absence of any controls_[^1].
+### Assessing the risk
+Other than finding security holes, one should assess the risk and consequence of existing risk controls failing.
 
-_Inherent risk is current risk level given the existing set of controls rather than the hypothetical notion of an absence of any controls_
 
+
+[^1]:  Rachel Slabotsky, FAIR Institute, acessed 2023.02.16 from [link](https://www.fairinstitute.org/blog/inherent-risk-vs.-residual-risk-explained-in-90-seconds).
 <!-- 
-## Adding Risk Controls
+## Step 2: Implementing Risk Controls
+
 This implies two things:
 
 * For systems still in the design phase, the system in its currently fleshed out design should be looked upon as the gross risk state.

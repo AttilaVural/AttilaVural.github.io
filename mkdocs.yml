@@ -21,6 +21,8 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - footnotes
+  - attr_list
   # These three are used for inline text highlighting, underscoring and striking-through
   - pymdownx.caret
   - pymdownx.mark
