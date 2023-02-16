@@ -34,7 +34,8 @@ markdown_extensions:
         - includes/abbreviations.md
 
 plugins:
-    - mkdocs-jupyter
+    - mkdocs-jupyter:
+        execute: True
   
 nav:
     - Python:
