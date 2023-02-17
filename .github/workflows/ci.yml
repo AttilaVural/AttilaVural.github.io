@@ -19,6 +19,14 @@ jobs:
           key: ${{ github.ref }}
           path: .cache
       - run: pip install mkdocs-material
-      - run: pip install mkdocs-jupyter
+      # For running jupyter notebook
       - run: pip install notebook
+      # For integrating jupyter notebook into mkdocs and compiling it into a static .html file
+      - run: pip install mkdocs-jupyter
+      # Libraries you have used in your code projects
+      - run: pip install numpy
+      - run: pip install pandas
+      - run: pip install matplotlib
+      - run: pip install seaborn
+      # Compile the site into static files and push them to you gh-pages branch (overwriting existing files)
       - run: mkdocs gh-deploy --force
