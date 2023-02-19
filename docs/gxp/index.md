@@ -1,6 +1,31 @@
-# Motivation - Regulations
+# Compliance & its role in pharma
 
-The most important federal regulations on Computerized Systems are listed below:
+## What is Compliance ang GMP?
+The word _compliance_ is often used in the industry by itself, but what is really meant is _compliance with federal regulations_. 
+GMP is a term commonly used in the pharma industry. It stands for _Good Manufacturing Practices_ and despite 
+
+(Cirkel diagram: Compliance > GxP/GMP > GAMP etc...)
+
+the seemingly general wording, GMP a term virtually exclusive to the pharma industry. 
+Words commonly used interchangebly with GMP are:
+
+* cGMP - Current Good Manufacturing Practices.
+* GxP - Good x Practices, where x stands for different sub-areas within the industry.
+* cGxP - Current Good x Practices.
+
+There are small variations, but the overall meaning is the same - following federal regulations.
+
+## What role does it have in pharma?
+Pharmaceutical companies - especially those manufacturing drugs for injection - are subject to some of the strictest 
+laws across all industries. This is reflected inside the workplaces, by having almost all employee tasks directly related
+to a certain federal regulation. 
+
+By law, pharmaceutiacal companies are required to adopt a QMS system, which describes how to deal with tasks so as to comply
+most effectively with regulations.
+
+
+
+
 
 ## 1. US regulations
 The FDA regulatory requirements are seen as the most important laws to comply with, and these are found in 
