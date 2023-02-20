@@ -46,7 +46,7 @@ nav:
     - IT Compliance in Pharma:
         - gxp/index.md    
         # - Computerized Systems: gxp/CE.md
-        # - QMS:
+        - Keeping in Compliance - QMS: gxp/QMS.md
             # - Overview: gxp/QMS.md
         # - Validation:
             # - System Verification: gxp/sys_verif.md
