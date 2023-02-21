@@ -22,16 +22,17 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
   - footnotes
+  # This is used to enable passing CSS/HTML attributes to images etc.
   - attr_list
   # These three are used for inline text highlighting, underscoring and striking-through
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
   # These two are used to enable the site-wide dictionary
-  - abbr
-  - pymdownx.snippets:
-      auto_append:
-        - includes/abbreviations.md
+  #- abbr
+  #- pymdownx.snippets:
+  #    auto_append:
+  #      - includes/abbreviations.md
 
 plugins:
     - mkdocs-jupyter:

@@ -1,39 +1,26 @@
-# The QMS - ensures compliance
-By law, pharmaceutiacal companies are required to adopt a QMS system, which describes how to deal with tasks so as to comply
-most effectively with regulations.
-
-(Cirkel diagram: Compliance > GxP/GMP > GAMP etc...)
+# Keeping in Compliance - QMS
+Federal regulation recommend pharmaceutiacal companies to adopt a QMS system, 
+which is a high level strategy defined by upper management, that describes how GMP-related 
+activites, and general business related activites, should be carried out and prioritized to achieve the desired level of product quality.
+They are usually built around the ISO 9001 and ISO 13485 standards.
 
 ``` mermaid
-graph TD
-  A([Staying in compliance]);
-	A --- B[QMS guidelines];
-		B --- C[General business requirements];
-			C --- D[GDRP, Health & Safety <br> and Business Ethics];
-		B --- G[Regulatory requirements];
-			G --- H[Processes];
-			G --- I[Procedures];
-				I --- K[Formats];
-				I --- L[Training];
-				I --- M[Change Management];
-			G --- J[People];
+	graph LR
+		subgraph TOP [" "];
+					G[Regulatory requirements];
+						G --- H[Processes];
+						G --- I[Procedures];
+						G --- M[Change Management];
+						G --- L[Training of employees];
+						G --- N[Deviation Management];
+						G --- O[Change Management];
+						G --- P[Configuration Management];
+						G --- Q[IT Risk Assessment];
+					
+			NOTE["Implementation specifics <br> are defined in each <br> company's QMS"];
+		end
+	class NOTE dashedNote
+	class TOP transparant
+	classDef dashedNote fill:#00000000,text-align:left,stroke-dasharray:5,font-weight:bold;
+	classDef transparant fill:#00000000,stroke:#00000000;
 ```
-
-_Built on ISO 9001 and includes requirements set by laws and regulations_
-
-Deal with regulatory requirements within healthcare 
-(and to some degree also general business requirements, such as GDPR, but these are not the focus here).
-
-QMS (Quality Risk Managmenet?) describes the overall strategy for how the company handles:
-
-* Standard Operating Procedures - formats, training and changes.
-* Training of employees
-
-* Deviation Management
-* Change Management
-* Configuration Management
-* IT Risk Assessment
-
-Built on ISO 9001
-
-"Quality" is also sometimes used to refer to Compliance

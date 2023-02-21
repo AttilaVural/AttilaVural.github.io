@@ -30,7 +30,7 @@ These are found in _EudraLex (EMA), Volume 4 (GMP), Annex 11 - Computerised Syst
 The full text can be found [here](https://health.ec.europa.eu/system/files/2016-11/annex11_01-2011_en_0.pdf), 
 and the entire annex only consists of 5 pages.
 
-### 3. Other national agencies
+### Other national agencies
 Other countries often look towards the FDA and EU requirements, when forming their own sets of requirements.
 
 Some of the other national pharmaceutical regulatory agencies, 
