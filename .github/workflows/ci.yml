@@ -28,5 +28,6 @@ jobs:
       - run: pip install pandas
       - run: pip install matplotlib
       - run: pip install seaborn
+      - run: pip install scikit-learn
       # Compile the site into static files and push them to you gh-pages branch (overwriting existing files)
       - run: mkdocs gh-deploy --force
