@@ -1,9 +1,9 @@
-site_name: Test
+site_name: IT in the Pharma Industry
 theme:
   name: material
   palette:
     scheme: default
-    primary: grey
+    primary: blue grey
   icon:
     logo: octicons/codescan-checkmark-16
   features:
@@ -37,14 +37,24 @@ markdown_extensions:
 plugins:
     - mkdocs-jupyter:
         execute: True
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/attila-vural/
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:att.vural@gmail.com
+  # This removed the "Made my mkDocs material" in the footer
+  generator: false
+
+copyright: Copyright &copy; 2022 - 2023 Attila Vural
   
 nav:
-    - Python:
+    - Data Science:
         - python/DataCamp.ipynb
         # - python/index.md
         # - Page 1: python/2nd_page.md
     
-    - IT Compliance in Pharma:
+    - GxP Compliance:
         - gxp/index.md    
         # - Computerized Systems: gxp/CE.md
         - Keeping in Compliance - QMS: gxp/QMS.md
@@ -67,6 +77,8 @@ nav:
         # - Change Requests: CR.md
         - IT Risk Assessments: gxp/IT_risk.md
         # - CAPA: capa.md
+    - IT/OT Security:
+        - security/index.md
 
     # - 1:1 Teaching:
         # - 1on1/index.md

@@ -1,5 +1,7 @@
 # Compliance & its role in pharma
 
+
+
 ## What is Compliance and _GMP_?
 The word _compliance_ is often used in the industry by itself, but what is really meant is _compliance with federal regulations_. 
 GMP is a term commonly used in the pharma industry. It stands for _Good Manufacturing Practices_ and despite 
@@ -17,6 +19,8 @@ laws across all industries. This is reflected inside the workplaces, by most of 
 production revolving around ensuring compliance.
 
 ## The regulations defining compliance
+![Regulatory agencies logos](images/regulatory_agencies.png)
+
 ### US regulations
 The FDA regulatory requirements are seen as the most important laws to comply with, and these are found in 
 _FDA CFR, Title 21, Part 11 - Electronic Records & Signatures_.
