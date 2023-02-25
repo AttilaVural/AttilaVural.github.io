@@ -1,11 +1,11 @@
 # Introduction to this website
-![image](mit_billede.jpg){ style="float: right; max-width: 20%; border-radius: 10%;"}
+![image](mit_billede.jpg){ style="float: right; max-width: 20%; border-radius: 70%;"}
 
 Welcome to my blog on IT in the pharmaceutical industry. 
 My name is Attila Vural, and I am excited to share my insights and experiences with you on the 
-intersection of regulatory compliance, IT security, and data science in this atypical field.
+intersection of regulatory compliance, IT security, and data engineering in this specialized field. 
 
-Click on the topics on the figure below to read more.
+Click on the topics on the figure below to read more, and feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/attila-vural/).
 
 <!-- <iframe src="front_page_diagram1.svg" title="front site map" style="width:100%;height:350px;border:none;" scrolling="no"></iframe> -->
 

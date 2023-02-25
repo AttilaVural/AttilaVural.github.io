@@ -1,0 +1,1 @@
+Tænk på Vision systemet, Filtertesterne osv og beskriv hvorfor konsekvenserne heraf er vigtige i GxP settings.

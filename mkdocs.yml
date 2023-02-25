@@ -49,18 +49,15 @@ extra:
 copyright: Copyright &copy; 2022 - 2023 Attila Vural
   
 nav:
-    - Data Science:
-        - python/DataCamp.ipynb
-        # - python/index.md
-        # - Page 1: python/2nd_page.md
-    
     - GxP Compliance:
         - gxp/index.md    
+        - The Regulations: gxp/regulations.md
+        - Audits and Inspections: gxp/inspections.md
         # - Computerized Systems: gxp/CE.md
         - Keeping in Compliance - QMS: gxp/QMS.md
             # - Overview: gxp/QMS.md
-        # - Validation:
-            # - System Verification: gxp/sys_verif.md
+        - Validation:
+            - System Verification: gxp/sys_verif.md
             # - Requirements to fulfill - URS: URS.md
             # - Defining the URS: defining_URS.md
             # - Defining the URS - ITRA: URS_ITRA.md
@@ -77,9 +74,22 @@ nav:
         # - Change Requests: CR.md
         - IT Risk Assessments: gxp/IT_risk.md
         # - CAPA: capa.md
+    - Data:
+        - data/index.md
+        - OEE metrics: 
+            - About: data/oee.md
+            - Extracting OEE data: data/oee_extract.md
+        - Visual Management: 
+            - The 10s rule: data/10sec.md
+        - Coding:
+            - Code review: data/coding_process.md
+        #- Data science case: data/DataCamp.ipynb
+        # - python/index.md
+        # - Page 1: python/2nd_page.md
     - IT/OT Security:
         - security/index.md
-
+        - Importance of having connected equipment: security/standalone_dangers.md
+        - Security Tiers: security/tiers.md
     # - 1:1 Teaching:
         # - 1on1/index.md
 
