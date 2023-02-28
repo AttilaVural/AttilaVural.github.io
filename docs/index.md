@@ -1,5 +1,5 @@
 # Introduction to this website
-![image](mit_billede.jpg){ style="float: right; max-width: 20%; border-radius: 70%;"}
+[![image](mit_billede.jpg){ style="float: right; max-width: 20%; border-radius: 70%;"}](https://www.linkedin.com/in/attila-vural/)
 
 Welcome to my blog on IT in the pharmaceutical industry. 
 My name is Attila Vural, and I am excited to share my insights and experiences with you on the 

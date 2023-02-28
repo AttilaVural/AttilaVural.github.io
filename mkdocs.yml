@@ -35,8 +35,8 @@ markdown_extensions:
   #      - includes/abbreviations.md
 
 plugins:
-    - mkdocs-jupyter:
-        execute: True
+    # - mkdocs-jupyter:
+        # execute: True
 extra:
   social:
     - icon: fontawesome/brands/linkedin
@@ -49,21 +49,24 @@ extra:
 copyright: Copyright &copy; 2022 - 2023 Attila Vural
   
 nav:
-    - GxP Compliance:
+    - Compliance:
         - gxp/index.md    
         - The Regulations: gxp/regulations.md
         - Audits and Inspections: gxp/inspections.md
         # - Computerized Systems: gxp/CE.md
+        - Staying in the validated state: index.md
         - Keeping in Compliance - QMS: gxp/QMS.md
             # - Overview: gxp/QMS.md
-        - Validation:
-            - System Verification: gxp/sys_verif.md
-            # - Requirements to fulfill - URS: URS.md
-            # - Defining the URS: defining_URS.md
-            # - Defining the URS - ITRA: URS_ITRA.md
-            # - Validation Deviations: VDV.md
-            # - Configuration management - CS/CIL: CS.md
-            # - Engineering Changes: Eng_changes.md
+        - GxP Data?: GxP_data.md
+        - GxP servers and Historians: index.md
+        - Data integrity: data_integrity.md
+        - ALCOA: ALCOA.md
+        - Integrity: integrity.md
+        - Traceability: traceability.md
+        - Writing O&M SOPs: OM_SOP.md
+        - Out of compliance:
+            - Minor and major DVs: index.md
+            - VDVs: index.md
         
         # - Configuration Management: 
             # - Configuration Management System: CMS.md
@@ -72,24 +75,50 @@ nav:
             # - Deviations: deviations.md
         # - Change management sytem: CR_system.md
         # - Change Requests: CR.md
-        - IT Risk Assessments: gxp/IT_risk.md
         # - CAPA: capa.md
-    - Data:
+    - Validation projects: 
+        - System Verification: gxp/sys_verif.md
+        - Planning Validation Activities: gxp/validation_plan.md
+        - Validation devaitions: index.md
+        - FAT/SAT: FAT_SAT.md
+        # - Requirements to fulfill - URS: URS.md
+        # - Defining the URS: defining_URS.md
+        # - Defining the URS - ITRA: URS_ITRA.md
+        # - Configuration management - CS/CIL: CS.md
+        # - Engineering Changes: Eng_changes.md
+    - Security:
+        - security/index.md
+        - IT Risk Assessments:
+            - Purpose: gxp/IT_risk/overview.md
+            - Practical implementation: gxp/IT_risk/practical_implementation.md
+            - Determining Gross Risk: gxp/IT_risk/gross_risk.md
+            - Implementing controls: gxp/IT_risk/implementing_controls.md
+            - Flow diagram: gxp/IT_risk/diagram.md
+        - Importance of having connected equipment: security/standalone_dangers.md
+        - Security Tiers: security/tiers.md
+        - System types:
+            - Computerized systems: CE.md
+            - IT systems: IT.md
+            - Low-code apps: software.md
+        - Recovery Plans: 
+            - The plan: TRP.md
+            - RPO/RTO/WRT/MTD: RPO.md
+    - OEE Metrics:
         - data/index.md
-        - OEE metrics: 
-            - About: data/oee.md
-            - Extracting OEE data: data/oee_extract.md
+        - OEE1, OEE2 & OEE3: data/oee.md
+        - OEE diagram: data/OEE_diagram.md
+        - Extracting OEE data: data/oee_extract.md
+        - Processing data - Alteryx: alteryx.md
+        - Displaying data - Tableau: tableau.md
         - Visual Management: 
             - The 10s rule: data/10sec.md
-        - Coding:
-            - Code review: data/coding_process.md
+    - Misc:
+        misc/index.md
+        #- Coding:
+        #    - Code review: data/coding_process.md
         #- Data science case: data/DataCamp.ipynb
         # - python/index.md
         # - Page 1: python/2nd_page.md
-    - IT/OT Security:
-        - security/index.md
-        - Importance of having connected equipment: security/standalone_dangers.md
-        - Security Tiers: security/tiers.md
     # - 1:1 Teaching:
         # - 1on1/index.md
 
