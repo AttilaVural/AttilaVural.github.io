@@ -1,5 +1,5 @@
 # Introduction to this website
-[![image](mit_billede.jpg){ style="float: right; max-width: 20%; border-radius: 70%;"}](https://www.linkedin.com/in/attila-vural/)
+[![image](mit_billede.jpg){ style="float:right; width:150px; max-width:35%; border-radius:70%;"}](https://www.linkedin.com/in/attila-vural/)
 
 Welcome to my blog on IT in the pharmaceutical industry. 
 My name is Attila Vural, and I am excited to share my insights and experiences with you on the 
@@ -9,7 +9,7 @@ Click on the topics on the figure below to read more, and feel free to connect w
 
 <!-- <iframe src="front_page_diagram1.svg" title="front site map" style="width:100%;height:350px;border:none;" scrolling="no"></iframe> -->
 
-<object data="front_page_diagram.svg" type="image/svg+xml" target="_parent"></object>
+<object data="front_page_diagram.svg" type="image/svg+xml" target="_parent" style="width:100%"></object>
 
 
 
