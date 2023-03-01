@@ -16,6 +16,8 @@ theme:
     - navigation.expand
   
 markdown_extensions:
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -55,6 +57,7 @@ nav:
         - Audits and Inspections: gxp/inspections.md
         # - Computerized Systems: gxp/CE.md
         - Staying in the validated state: index.md
+        - Common document types: gxp/IRA_TRP_OM.md
         - Keeping in Compliance - QMS: gxp/QMS.md
             # - Overview: gxp/QMS.md
         - GxP Data?: GxP_data.md
@@ -63,6 +66,7 @@ nav:
         - ALCOA: ALCOA.md
         - Integrity: integrity.md
         - Traceability: traceability.md
+        - Signature types: gxp/signature_types.md
         - Writing O&M SOPs: OM_SOP.md
         - Out of compliance:
             - Minor and major DVs: index.md

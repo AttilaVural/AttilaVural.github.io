@@ -7,8 +7,6 @@ intersection of regulatory compliance, IT security, and data engineering in this
 
 Click on the topics on the figure below to read more, and feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/attila-vural/).
 
-<!-- <iframe src="front_page_diagram1.svg" title="front site map" style="width:100%;height:350px;border:none;" scrolling="no"></iframe> -->
-
 <object data="front_page_diagram.svg" type="image/svg+xml" target="_parent" style="width:100%"></object>
 
 
