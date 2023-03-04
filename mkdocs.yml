@@ -51,73 +51,64 @@ extra:
 copyright: Copyright &copy; 2022 - 2023 Attila Vural
   
 nav:
-    - Compliance:
+    - IT Compliance:
         - gxp/index.md    
-        - The Regulations: gxp/regulations.md
-        - Audits and Inspections: gxp/inspections.md
-        # - Computerized Systems: gxp/CE.md
-        - Staying in the validated state: index.md
-        - Common document types: gxp/IRA_TRP_OM.md
-        - Keeping in Compliance - QMS: gxp/QMS.md
-            # - Overview: gxp/QMS.md
-        - GxP Data?: GxP_data.md
-        - GxP servers and Historians: index.md
-        - Data integrity: data_integrity.md
-        - ALCOA: ALCOA.md
-        - Integrity: integrity.md
-        - Traceability: traceability.md
-        - Signature types: gxp/signature_types.md
-        - Writing O&M SOPs: OM_SOP.md
-        - Out of compliance:
-            - Minor and major DVs: index.md
-            - VDVs: index.md
-        
-        # - Configuration Management: 
-            # - Configuration Management System: CMS.md
-        # - Deviation Management:
-            # - Deviation Management System: DMS.md
-            # - Deviations: deviations.md
-        # - Change management sytem: CR_system.md
-        # - Change Requests: CR.md
-        # - CAPA: capa.md
-    - Validation projects: 
-        - System Verification: gxp/sys_verif.md
-        - Planning Validation Activities: gxp/validation_plan.md
-        - Validation devaitions: index.md
-        - FAT/SAT: FAT_SAT.md
-        # - Requirements to fulfill - URS: URS.md
-        # - Defining the URS: defining_URS.md
-        # - Defining the URS - ITRA: URS_ITRA.md
-        # - Configuration management - CS/CIL: CS.md
-        # - Engineering Changes: Eng_changes.md
-    - Security:
+        - Governing regulations: gxp/regulations.md
+        - Regulatory processes (diagram): gxp/QMS.md
+        # - Types of IT systems: gxp/system_types.md
+        - Risk and recovery documents: gxp/IRA_TRP_OM.md
+        # - GAMP5: gxp/gamp5.md
+        # - GxP Data?: gxp/data.md
+        # - Signature types: gxp/signature_types.md
+        # - ALCOA: gxp/ALCOA.md
+        # - GxP servers and Historians: gxp/serer_historian.md
+        # - The validated state: gxp/validated_state.md
+        # - Audits and Inspections: gxp/inspections.md
+        # - Writing O&M SOPs: gxp/OM_SOP.md
+        # - Data integrity: data_integrity.md
+        # - Integrity: gxp/integrity.md
+        # - Traceability: gxp/traceability.md
+        # - Configuration Management System: gxp/CMS.md
+        # - Change management sytem: gxp/CR_system.md
+        # - Deviation Management System: gxp/DMS.md
+        # - Minor and major DVs: gxp/dv_classification.md
+        # - CAPA: gxp/capa.md
+    - Validation projects:
+        - validation/index.md
+        - Validation strategies: validation/strategies.md
+        - Typical document package: validation/document_package.md
+        # - System Verification: validation/sys_verif.md
+        # - Planning Validation Activities: validation/validation_plan.md
+        # - Validation deviations: validation/VDV.md
+        # - FAT/SAT: validation/FAT_SAT.md
+    - IT/OT Security:
         - security/index.md
         - IT Risk Assessments:
-            - Purpose: gxp/IT_risk/overview.md
-            - Practical implementation: gxp/IT_risk/practical_implementation.md
-            - Determining Gross Risk: gxp/IT_risk/gross_risk.md
-            - Implementing controls: gxp/IT_risk/implementing_controls.md
-            - Flow diagram: gxp/IT_risk/diagram.md
-        - Importance of having connected equipment: security/standalone_dangers.md
-        - Security Tiers: security/tiers.md
-        - System types:
-            - Computerized systems: CE.md
-            - IT systems: IT.md
-            - Low-code apps: software.md
-        - Recovery Plans: 
-            - The plan: TRP.md
-            - RPO/RTO/WRT/MTD: RPO.md
-    - OEE Metrics:
-        - data/index.md
-        - OEE1, OEE2 & OEE3: data/oee.md
-        - OEE diagram: data/OEE_diagram.md
-        - Extracting OEE data: data/oee_extract.md
-        - Processing data - Alteryx: alteryx.md
-        - Displaying data - Tableau: tableau.md
-        - Visual Management: 
-            - The 10s rule: data/10sec.md
-    - Misc:
-        misc/index.md
+            # - Purpose: security/overview.md
+            # - Practical implementation: security/practical_implementation.md
+            # - Determining Gross Risk: security/gross_risk.md
+            # - Implementing controls: security/implementing_controls.md
+            - Flow diagram: security/IT_risk/diagram.md
+        # - Importance of having connected equipment: security/standalone_dangers.md
+        # - Security Tiers: security/tiers.md
+        # - System types:
+            # - Computerized systems: security/CE.md
+            # - IT systems: security/IT.md
+            # - Low-code apps: security/software.md
+        # - Recovery Plans: 
+            # - The plan: security/TRP.md
+            # - RPO/RTO/WRT/MTD: security/RPO.md
+    # - OEE Metrics:
+        # - data/index.md
+        # - OEE1, OEE2 & OEE3: data/oee.md
+        # - OEE diagram: data/OEE_diagram.md
+        # - Extracting OEE data: data/oee_extract.md
+        # - Processing data - Alteryx: data/alteryx.md
+        # - Displaying data - Tableau: data/tableau.md
+        # - Visual Management: 
+            # - The 10s rule: data/10sec.md
+    # - Misc:
+        # misc/index.md
         #- Coding:
         #    - Code review: data/coding_process.md
         #- Data science case: data/DataCamp.ipynb

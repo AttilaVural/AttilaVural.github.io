@@ -1,3 +1,3 @@
-# IT/OT security & its role in pharma
+# Security in a pharma context
 
-## What is ...
+

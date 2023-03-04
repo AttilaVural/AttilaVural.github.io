@@ -3,21 +3,20 @@ hide:
   - toc
 ---
 
-# What is Compliance and GMP?
-The word _compliance_ is often used in the industry by itself, but what is really meant is _compliance with federal regulations_. 
-GMP is a term commonly used in the pharma industry. It stands for _Good Manufacturing Practices_ and despite 
-the seemingly general wording, GMP a term virtually exclusive to the pharma industry. Words commonly used interchangebly with GMP are:
+# What is Compliance and GxP?
+The word _compliance_ is, in the context of pharmaceutical companies, refeering to compliance with federal regulations. 
+GxP is another term commonly used in the pharma industry. It stands for _Good x Practices_,  
+where _x_ stands for different sub-areas within the industry, and it is a term exclusive to the food and drug industry. 
+Words commonly used interchangebly with GxP are:
 
 * cGMP - Current Good Manufacturing Practices.
-* GxP - Good x Practices, where x stands for different sub-areas within the industry.
 * cGxP - Current Good x Practices.
-
-There are small variations, but the overall meaning is the same - following federal regulations.
+* GMP - Good Manufacturing Practices - a subset of GxP, although often used interchangeably with it.
 
 ## What role does compliance have in pharma?
 Pharmaceutical companies - especially those manufacturing drugs for injection - are subject to some of the strictest 
-laws across all industries. This is reflected inside the workplaces, by most of the task not directly related to ensuring 
-production revolving around ensuring compliance.
+regulations across all industries. This is reflected inside the workplaces, by most of the task, not directly related to ensuring 
+production, revolving around ensuring compliance.
 
 
 
