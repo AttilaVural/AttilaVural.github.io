@@ -1,4 +1,4 @@
-site_name: IT in the Pharma Industry
+site_name: IT Compliance in the Pharma Industry
 theme:
   name: material
   palette:
@@ -51,10 +51,16 @@ extra:
 copyright: Copyright &copy; 2022 - 2023 Attila Vural
   
 nav:
-    - IT Compliance:
-        - gxp/index.md    
+    - Overview:
+        - gxp/index.md
         - Governing regulations: gxp/regulations.md
-        - Regulatory processes (diagram): gxp/QMS.md
+        - Findings and their severity: gxp/finding_severity.md
+        - What constitutes GxP data?: gxp/gxp_data_categorization.md
+        #- Regulatory processes (diagram): gxp/QMS.md
+    - IT SOPs:
+        - sop/index.md 
+        - Motivation: sop/motivation.md
+        - Relevant findings: gxp/findings.md
         # - Types of IT systems: gxp/system_types.md
         - Risk and recovery documents: gxp/IRA_TRP_OM.md
         # - GAMP5: gxp/gamp5.md
@@ -73,22 +79,24 @@ nav:
         # - Deviation Management System: gxp/DMS.md
         # - Minor and major DVs: gxp/dv_classification.md
         # - CAPA: gxp/capa.md
-    - Validation projects:
-        - validation/index.md
+    - Risk Assessments:
+        - ira/index.md
         - Validation strategies: validation/strategies.md
         - Typical document package: validation/document_package.md
         # - System Verification: validation/sys_verif.md
         # - Planning Validation Activities: validation/validation_plan.md
         # - Validation deviations: validation/VDV.md
         # - FAT/SAT: validation/FAT_SAT.md
-    - IT/OT Security:
-        - security/index.md
-        - IT Risk Assessments:
+    - Recovery Plans:
+        - validation/index.md
+    #- IT/OT Security:
+        #- security/index.md
+        #- IT Risk Assessments:
             # - Purpose: security/overview.md
             # - Practical implementation: security/practical_implementation.md
             # - Determining Gross Risk: security/gross_risk.md
             # - Implementing controls: security/implementing_controls.md
-            - Flow diagram: security/IT_risk/diagram.md
+            #- Flow diagram: security/IT_risk/diagram.md
         # - Importance of having connected equipment: security/standalone_dangers.md
         # - Security Tiers: security/tiers.md
         # - System types:
