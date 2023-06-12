@@ -55,7 +55,8 @@ nav:
         - gxp/index.md
         - Governing regulations: gxp/regulations.md
         - Findings and their severity: gxp/finding_severity.md
-        - What constitutes GxP data?: gxp/gxp_data_categorization.md
+        - What constitutes GxP data?: gxp/gxp_data.md
+        - Useful links: gxp/links.md
         #- Regulatory processes (diagram): gxp/QMS.md
     - IT SOPs:
         - sop/index.md 

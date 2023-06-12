@@ -18,7 +18,9 @@ Pharmaceutical companies - especially those manufacturing drugs for injection - 
 regulations across all industries. This is reflected inside the workplaces, by most of the task, not directly related to ensuring 
 production, revolving around ensuring compliance.
 
+A report from 2016[^1] indicates that circa 79% of 483 warning letters issued by the FDA to the pharmaceutical industry cited deficiencies in data integrity.
 
+[^1]: Pharmaceutical Online, An Analysis Of FDA FY2016 Drug GMP Warning Letters By Barbara Unger, Unger Consulting Inc. https://www.pharmaceuticalonline.com/doc/an-analysis-of-fda-fy-drug-gmp-warning-letters-0001
 
 <!-- The high degree of desired regulatory controll of governmental agencies, mean that laws governing daily life on
 pharmaceutical plants are very encompassing. This entails describing most actions through SOPs - Standard Operating Procedures. -->
