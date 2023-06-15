@@ -1,6 +1,10 @@
 # Motivation
 Manual tasks required to maintain IT security and integrity of GxP data and signatures must be described in an instruction, sometimes referred to as the'Operation & maintenance instruction'.
 
+This is mandated in CFR part 21 section xxxx.....
+
+
+
 These include topics such as:
 
 * Process for security patching
