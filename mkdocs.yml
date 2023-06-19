@@ -60,7 +60,7 @@ nav:
         #- Regulatory processes (diagram): gxp/QMS.md
     - IT SOPs:
         - sop/index.md 
-        - Motivation: sop/motivation.md
+        - Overview: sop/overview.md
         - Relevant findings: gxp/findings.md
         # - Types of IT systems: gxp/system_types.md
         - Risk and recovery documents: gxp/IRA_TRP_OM.md
