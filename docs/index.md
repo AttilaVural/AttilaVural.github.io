@@ -3,9 +3,9 @@
 
 Welcome to my blog on IT in the pharmaceutical industry. 
 My name is Attila Vural, and I am excited to share my insights and experiences with you on the 
-intersection of regulatory compliance, IT security, and data engineering in this specialized field. 
+intersection of regulatory compliance, IT security, and data integrity in this specialized field. 
 
-Click on the topics on the figure below to read more, and feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/attila-vural/).
+Click on the topics on the figure below to read more, and feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/attila-vural/).
 
 <object data="front_page_diagram.svg" type="image/svg+xml" target="_parent" style="width:100%"></object>
 

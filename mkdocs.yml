@@ -56,6 +56,7 @@ nav:
         - Governing regulations: gxp/regulations.md
         - Types of findings: gxp/finding_severity.md
         - What constitutes GxP data?: gxp/gxp_data.md
+        - Common documents: gxp/document_types.md
         - Useful links: gxp/links.md
         #- Regulatory processes (diagram): gxp/QMS.md
     - IT SOPs:
@@ -89,7 +90,7 @@ nav:
         # - Validation deviations: validation/VDV.md
         # - FAT/SAT: validation/FAT_SAT.md
     - Recovery Plans:
-        - validation/index.md
+        - trp/index.md
     #- IT/OT Security:
         #- security/index.md
         #- IT Risk Assessments:
