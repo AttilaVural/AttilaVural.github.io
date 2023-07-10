@@ -59,7 +59,7 @@ nav:
         - Common documents: gxp/document_types.md
         - Useful links: gxp/links.md
         #- Regulatory processes (diagram): gxp/QMS.md
-    - IT SOPs:
+    - SOPs:
         - sop/index.md 
         - Overview: sop/overview.md
         - Relevant findings: gxp/findings.md
@@ -83,8 +83,9 @@ nav:
         # - CAPA: gxp/capa.md
     - Risk Assessments:
         - ira/index.md
-        - Validation strategies: validation/strategies.md
-        - Typical document package: validation/document_package.md
+        - Example: ira/example.md
+        #- Validation strategies: validation/strategies.md
+        #- Typical document package: validation/document_package.md
         # - System Verification: validation/sys_verif.md
         # - Planning Validation Activities: validation/validation_plan.md
         # - Validation deviations: validation/VDV.md
