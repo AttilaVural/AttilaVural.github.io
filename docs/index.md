@@ -5,9 +5,14 @@ Welcome to my blog on IT in the pharmaceutical industry.
 My name is Attila Vural, and I am excited to share my insights and experiences with you on the 
 intersection of regulatory compliance, IT security, and data integrity in this specialized field. 
 
-Click on the topics on the figure below to read more, and feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/attila-vural/).
+<!-- Click on the topics on the figure above to read more, and feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/attila-vural/). -->
 
-<object data="front_page_diagram.svg" type="image/svg+xml" target="_parent" style="width:100%"></object>
+![image](GxP.jpg){ style="float:left; height:250px; max-height:35%; border-radius:20%; margin: 10px;"}
+![image](SOP.jpg){ style="float:left; height:250px; max-height:35%; border-radius:20%; margin: 10px;"}
+![image](IRA.jpg){ style="float:left; height:250px; max-height:35%; border-radius:20%; margin: 10px;"}
+![image](TRP.jpg){ style="float:left; height:250px; max-height:35%; border-radius:20%; margin: 10px;"}
+
+<!-- <object data="front_page_diagram.svg" type="image/svg+xml" target="_parent" style="width:100%"></object> -->
 
 
 
