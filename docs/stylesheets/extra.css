@@ -9,8 +9,8 @@
 
 .post-image-round {
 	float:right;
-	width:350px !important;
-	max-width:35%; 
+	height:350px !important;
+	max-height:35%; 
 	border-radius:50%;
 	
 }

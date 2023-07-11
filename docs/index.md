@@ -1,6 +1,11 @@
+---
+hide:
+  - toc
+---
+
 # Introduction to this website
 
-[![image](mit_billede.jpg){ style="float:right; width:150px; max-width:35%; border-radius:70%;"}](https://www.linkedin.com/in/attila-vural/)
+[![image](mit_billede.jpg){class="post-image-round"}](https://www.linkedin.com/in/attila-vural/)
 
 Welcome to my blog on IT in the pharmaceutical industry. 
 My name is Attila Vural, and I am excited to share my insights and experiences with you on the 

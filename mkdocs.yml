@@ -57,6 +57,7 @@ nav:
     - GxP:
         - gxp/index.md
         - Governing regulations: gxp/regulations.md
+        - GAMP: gxp/gamp.md
         - Types of findings: gxp/finding_severity.md
         - What constitutes GxP data?: gxp/gxp_data.md
         - Common documents: gxp/document_types.md
