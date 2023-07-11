@@ -1,4 +1,5 @@
 # Introduction to this website
+
 [![image](mit_billede.jpg){ style="float:right; width:150px; max-width:35%; border-radius:70%;"}](https://www.linkedin.com/in/attila-vural/)
 
 Welcome to my blog on IT in the pharmaceutical industry. 
@@ -7,10 +8,7 @@ intersection of regulatory compliance, IT security, and data integrity in this s
 
 <!-- Click on the topics on the figure above to read more, and feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/attila-vural/). -->
 
-![image](GxP.jpg){ style="float:left; height:250px; max-height:35%; border-radius:20%; margin: 10px;"}
-![image](SOP.jpg){ style="float:left; height:250px; max-height:35%; border-radius:20%; margin: 10px;"}
-![image](IRA.jpg){ style="float:left; height:250px; max-height:35%; border-radius:20%; margin: 10px;"}
-![image](TRP.jpg){ style="float:left; height:250px; max-height:35%; border-radius:20%; margin: 10px;"}
+<!-- ![image](GxP.jpg){ style="float:left; height:250px; max-height:35%; border-radius:20%; margin: 10px;"} -->
 
 <!-- <object data="front_page_diagram.svg" type="image/svg+xml" target="_parent" style="width:100%"></object> -->
 

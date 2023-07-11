@@ -1,0 +1,16 @@
+.post-image { 
+	float:right; 
+	height:250px !important;
+	max-height:35%; 
+	border-radius:10%; 
+	margin: 10px; 
+	
+}
+
+.post-image-round {
+	float:right;
+	width:350px !important;
+	max-width:35%; 
+	border-radius:50%;
+	
+}

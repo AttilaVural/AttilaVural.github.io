@@ -1,4 +1,6 @@
 site_name: IT Compliance in the Pharma Industry
+extra_css:
+  - stylesheets/extra.css
 theme:
   name: material
   palette:
@@ -7,7 +9,7 @@ theme:
   icon:
     logo: octicons/codescan-checkmark-16
   features:
-    - navigation.tabs
+    #- navigation.tabs # This creates the top navigation bar
     - navigation.tracking
     - navigation.instant
     - navigation.path
@@ -51,18 +53,20 @@ extra:
 copyright: Copyright &copy; 2022 - 2023 Attila Vural
   
 nav:
-    - Overview:
+    - index.md
+    - GxP:
         - gxp/index.md
         - Governing regulations: gxp/regulations.md
         - Types of findings: gxp/finding_severity.md
         - What constitutes GxP data?: gxp/gxp_data.md
         - Common documents: gxp/document_types.md
+        - Common systems: gxp/common_equipment.md
         - Useful links: gxp/links.md
         #- Regulatory processes (diagram): gxp/QMS.md
     - SOPs:
         - sop/index.md 
         - Overview: sop/overview.md
-        - Relevant findings: gxp/findings.md
+        #- Relevant findings: gxp/findings.md
         # - Types of IT systems: gxp/system_types.md
         - Risk and recovery documents: gxp/IRA_TRP_OM.md
         # - GAMP5: gxp/gamp5.md

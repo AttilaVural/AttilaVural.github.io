@@ -1,3 +1,8 @@
-# What is "Validation"?
+---
+hide:
+  - toc
+---
 
-<object data="images/venn_index.svg" type="image/svg+xml" style="max-width:100%"></object>
+# Motivation
+
+![image](../images/TRP.jpg){class="post-image"}
