@@ -5,7 +5,7 @@ hide:
 
 # What is Compliance and GxP?
 
-![image](../images/FDA_inspector.jpg){class="post-image-round"}
+![image](../images/FDA_inspector.jpg){class="post-image"}
 
 The word _compliance_ is, in the context of pharmaceutical companies, refeering to compliance with federal regulations. 
 GxP is another term commonly used in the pharma industry. It stands for _Good x Practices_,  
@@ -18,7 +18,7 @@ Words commonly used interchangebly with GxP are:
 
 ## What role does compliance have in pharma?
 
-![image](../images/vial_germs.jpg){class="post-image-round"}
+![image](../images/vial_germs.jpg){class="post-image"}
 
 Pharmaceutical companies - especially those manufacturing drugs for injection - are subject to some of the strictest 
 regulations across all industries. This is reflected inside the workplaces, by most of the task, not directly related to ensuring 

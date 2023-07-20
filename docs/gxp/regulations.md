@@ -4,7 +4,8 @@ hide:
 ---
 
 # The Regulations Defining Compliance
-![Regulatory agencies logos](images/regulatory_agencies.png){ style="max-width: 70%" }
+<!-- ![Regulatory agencies logos](images/regulatory_agencies.png){ style="max-width: 70%" } -->
+![image](../images/FDA_headquarter.jpg){class="post-image"}
 
 ### US regulations
 The FDA regulatory requirements are seen as the most important laws to comply with, and these are found in 
@@ -15,7 +16,9 @@ This [link](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-11
 An official implementation guidance document for the industry can be found [here](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/part-11-electronic-records-electronic-signatures-scope-and-application).
 
 ### EU regulations
-These are found in _EudraLex (EMA), Volume 4 (GMP), Annex 11 - Computerised Systems_, which is often abbreviated as _EU GMP Annex 11_.
+![image](../images/EU_headquarters.jpg){class="post-image"}
+These are authored by the Directorate-General for Health and Food Safety and are found in _EudraLex (EMA), Volume 4 (GMP), Annex 11 - Computerised Systems_, which is often abbreviated as _EU GMP Annex 11_.
+
 
 The full text can be found [here](https://health.ec.europa.eu/system/files/2016-11/annex11_01-2011_en_0.pdf) (5 pages).
 
